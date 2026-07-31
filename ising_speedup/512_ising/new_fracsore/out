@@ -1,0 +1,2017 @@
+[38;5;246m# A tibble: 102 × 7[39m
+[38;5;246m# Groups:   lambda, P, m_0, m_1 [102][39m
+      lambda     P   m_0   m_1 scheme   mean_iter mean_frac_score
+       [3m[38;5;246m<dbl>[39m[23m [3m[38;5;246m<dbl>[39m[23m [3m[38;5;246m<int>[39m[23m [3m[38;5;246m<int>[39m[23m [3m[38;5;246m<chr>[39m[23m        [3m[38;5;246m<dbl>[39m[23m           [3m[38;5;246m<dbl>[39m[23m
+[38;5;250m 1[39m 0.000[4m0[24m[4m0[24m[4m0[24m2     1    [31mNA[39m    [31mNA[39m serial [4m2[24m[4m2[24m132[4m0[24m[4m0[24m[4m0[24m000            1.00
+[38;5;250m 2[39m 0.000[4m0[24m[4m0[24m[4m0[24m3     1    [31mNA[39m    [31mNA[39m serial [4m1[24m[4m8[24m582[4m6[24m[4m5[24m[4m9[24m250            1.00
+[38;5;250m 3[39m 0.000[4m0[24m[4m0[24m[4m0[24m4     1    [31mNA[39m    [31mNA[39m serial [4m1[24m[4m4[24m024[4m6[24m[4m3[24m[4m0[24m000            1.01
+[38;5;250m 4[39m 0.000[4m0[24m[4m0[24m[4m0[24m5     1    [31mNA[39m    [31mNA[39m serial [4m1[24m[4m1[24m261[4m3[24m[4m6[24m[4m7[24m750            1.00
+[38;5;250m 5[39m 0.000[4m0[24m[4m0[24m[4m0[24m7     1    [31mNA[39m    [31mNA[39m serial  [4m8[24m035[4m7[24m[4m3[24m[4m0[24m000            1.00
+[38;5;250m 6[39m 0.000[4m0[24m[4m0[24m[4m0[24m8     1    [31mNA[39m    [31mNA[39m serial  [4m6[24m958[4m9[24m[4m9[24m[4m8[24m500            1.00
+[38;5;250m 7[39m 0.000[4m0[24m[4m0[24m[4m1[24m      1    [31mNA[39m    [31mNA[39m serial  [4m5[24m647[4m6[24m[4m8[24m[4m8[24m100            1.00
+[38;5;250m 8[39m 0.000[4m0[24m[4m0[24m[4m2[24m      1    [31mNA[39m    [31mNA[39m serial  [4m2[24m842[4m5[24m[4m1[24m[4m9[24m600            1.00
+[38;5;250m 9[39m 0.000[4m0[24m[4m0[24m[4m3[24m      1    [31mNA[39m    [31mNA[39m serial  [4m1[24m891[4m8[24m[4m5[24m[4m6[24m400            1.00
+[38;5;250m10[39m 0.000[4m0[24m[4m0[24m[4m4[24m      1    [31mNA[39m    [31mNA[39m serial  [4m1[24m423[4m8[24m[4m1[24m[4m4[24m800            1.00
+[38;5;246m# ℹ 92 more rows[39m
+     lambda         E      I P scheme m_0 m_1     log_I  log_work frac_score
+1      0.10 -801.4259  10000 1 serial  NA  NA  9.210340  9.210340   1.083930
+2      0.10 -735.8435 -20000 1 serial  NA  NA       NaN       NaN   1.180536
+3      0.10 -754.4256      0 1 serial  NA  NA      -Inf      -Inf   1.151458
+4      0.10 -748.4620 -30000 1 serial  NA  NA       NaN       NaN   1.160633
+5      0.10 -725.8431 -30000 1 serial  NA  NA       NaN       NaN   1.196801
+6      0.10 -771.0187 -30000 1 serial  NA  NA       NaN       NaN   1.126678
+7      0.10 -769.1278      0 1 serial  NA  NA      -Inf      -Inf   1.129448
+8      0.10 -797.4117 -10000 1 serial  NA  NA       NaN       NaN   1.089387
+9      0.10 -752.5852      0 1 serial  NA  NA      -Inf      -Inf   1.154274
+10     0.10 -789.7993  20000 1 serial  NA  NA  9.903488  9.903488   1.099887
+11     0.10 -795.2822      0 1 serial  NA  NA      -Inf      -Inf   1.092304
+12     0.10 -768.0522 -20000 1 serial  NA  NA       NaN       NaN   1.131030
+13     0.10 -805.7639  10000 1 serial  NA  NA  9.210340  9.210340   1.078095
+14     0.10 -795.0856 -10000 1 serial  NA  NA       NaN       NaN   1.092574
+15     0.10 -779.4460 -30000 1 serial  NA  NA       NaN       NaN   1.114496
+16     0.10 -764.2006      0 1 serial  NA  NA      -Inf      -Inf   1.136730
+17     0.10 -761.2961 -30000 1 serial  NA  NA       NaN       NaN   1.141067
+18     0.10 -807.3244      0 1 serial  NA  NA      -Inf      -Inf   1.076011
+19     0.10 -772.6229  20000 1 serial  NA  NA  9.903488  9.903488   1.124339
+20     0.10 -764.4842      0 1 serial  NA  NA      -Inf      -Inf   1.136308
+21     0.10 -794.2284  10000 1 serial  NA  NA  9.210340  9.210340   1.093753
+22     0.10 -803.4636      0 1 serial  NA  NA      -Inf      -Inf   1.081181
+23     0.10 -786.9048  10000 1 serial  NA  NA  9.210340  9.210340   1.103932
+24     0.10 -752.2249 -30000 1 serial  NA  NA       NaN       NaN   1.154827
+25     0.10 -786.7514  10000 1 serial  NA  NA  9.210340  9.210340   1.104148
+26     0.10 -781.3020  20000 1 serial  NA  NA  9.903488  9.903488   1.111849
+27     0.10 -778.3498  10000 1 serial  NA  NA  9.210340  9.210340   1.116066
+28     0.10 -736.7594 -30000 1 serial  NA  NA       NaN       NaN   1.179068
+29     0.10 -789.1775      0 1 serial  NA  NA      -Inf      -Inf   1.100753
+30     0.10 -740.4212 -10000 1 serial  NA  NA       NaN       NaN   1.173237
+31     0.10 -745.9344 -30000 1 serial  NA  NA       NaN       NaN   1.164566
+32     0.10 -784.9208  30000 1 serial  NA  NA 10.308953 10.308953   1.106723
+33     0.10 -779.9902      0 1 serial  NA  NA      -Inf      -Inf   1.113719
+34     0.10 -823.1408  10000 1 serial  NA  NA  9.210340  9.210340   1.055335
+35     0.10 -799.2497  10000 1 serial  NA  NA  9.210340  9.210340   1.086881
+36     0.10 -784.8275      0 1 serial  NA  NA      -Inf      -Inf   1.106854
+37     0.10 -768.3186  10000 1 serial  NA  NA  9.210340  9.210340   1.130637
+38     0.10 -787.0843  30000 1 serial  NA  NA 10.308953 10.308953   1.103681
+39     0.10 -791.7782      0 1 serial  NA  NA      -Inf      -Inf   1.097138
+40     0.10 -797.3591      0 1 serial  NA  NA      -Inf      -Inf   1.089459
+41     0.10 -805.8481  10000 1 serial  NA  NA  9.210340  9.210340   1.077982
+42     0.10 -745.3181 -20000 1 serial  NA  NA       NaN       NaN   1.165529
+43     0.10 -752.5678 -10000 1 serial  NA  NA       NaN       NaN   1.154301
+44     0.10 -800.4834      0 1 serial  NA  NA      -Inf      -Inf   1.085206
+45     0.10 -785.0396 -10000 1 serial  NA  NA       NaN       NaN   1.106555
+46     0.10 -789.8300 -10000 1 serial  NA  NA       NaN       NaN   1.099844
+47     0.10 -766.8738      0 1 serial  NA  NA      -Inf      -Inf   1.132767
+48     0.10 -774.6578      0 1 serial  NA  NA      -Inf      -Inf   1.121385
+49     0.10 -789.9918      0 1 serial  NA  NA      -Inf      -Inf   1.099619
+50     0.10 -791.0479  20000 1 serial  NA  NA  9.903488  9.903488   1.098150
+51     0.10 -782.7726      0 1 serial  NA  NA      -Inf      -Inf   1.109760
+52     0.10 -790.8454  20000 1 serial  NA  NA  9.903488  9.903488   1.098432
+53     0.10 -789.0011  10000 1 serial  NA  NA  9.210340  9.210340   1.100999
+54     0.10 -765.9397 -30000 1 serial  NA  NA       NaN       NaN   1.134149
+55     0.10 -731.0044 -30000 1 serial  NA  NA       NaN       NaN   1.188351
+56     0.10 -814.7346 -20000 1 serial  NA  NA       NaN       NaN   1.066224
+57     0.10 -756.1780 -30000 1 serial  NA  NA       NaN       NaN   1.148790
+58     0.10 -792.8467 -10000 1 serial  NA  NA       NaN       NaN   1.095659
+59     0.10 -764.1595 -30000 1 serial  NA  NA       NaN       NaN   1.136791
+60     0.10 -711.4484 -30000 1 serial  NA  NA       NaN       NaN   1.221016
+61     0.10 -808.8016      0 1 serial  NA  NA      -Inf      -Inf   1.074045
+62     0.10 -805.3529  10000 1 serial  NA  NA  9.210340  9.210340   1.078645
+63     0.10 -808.3595 -10000 1 serial  NA  NA       NaN       NaN   1.074633
+64     0.10 -778.2516 -30000 1 serial  NA  NA       NaN       NaN   1.116207
+65     0.10 -812.4303      0 1 serial  NA  NA      -Inf      -Inf   1.069248
+66     0.10 -738.3924 -10000 1 serial  NA  NA       NaN       NaN   1.176461
+67     0.10 -808.5046  10000 1 serial  NA  NA  9.210340  9.210340   1.074440
+68     0.10 -792.4433      0 1 serial  NA  NA      -Inf      -Inf   1.096217
+69     0.10 -735.0342 -30000 1 serial  NA  NA       NaN       NaN   1.181836
+70     0.10 -775.2298  30000 1 serial  NA  NA 10.308953 10.308953   1.120558
+71     0.10 -799.2107      0 1 serial  NA  NA      -Inf      -Inf   1.086935
+72     0.10 -792.9719 -10000 1 serial  NA  NA       NaN       NaN   1.095486
+73     0.10 -747.4235 -30000 1 serial  NA  NA       NaN       NaN   1.162246
+74     0.10 -722.7353 -30000 1 serial  NA  NA       NaN       NaN   1.201947
+75     0.10 -750.4648 -20000 1 serial  NA  NA       NaN       NaN   1.157536
+76     0.10 -791.8094 -10000 1 serial  NA  NA       NaN       NaN   1.097094
+77     0.10 -782.0761  10000 1 serial  NA  NA  9.210340  9.210340   1.110748
+78     0.10 -782.2101  40000 1 serial  NA  NA 10.596635 10.596635   1.110558
+79     0.10 -702.3507 -30000 1 serial  NA  NA       NaN       NaN   1.236832
+80     0.10 -788.5210 -10000 1 serial  NA  NA       NaN       NaN   1.101670
+81     0.10 -801.0662      0 1 serial  NA  NA      -Inf      -Inf   1.084417
+82     0.10 -778.4367  10000 1 serial  NA  NA  9.210340  9.210340   1.115941
+83     0.10 -735.1385 -30000 1 serial  NA  NA       NaN       NaN   1.181668
+84     0.10 -792.5199  20000 1 serial  NA  NA  9.903488  9.903488   1.096111
+85     0.10 -731.6428 -30000 1 serial  NA  NA       NaN       NaN   1.187314
+86     0.10 -789.4986  10000 1 serial  NA  NA  9.210340  9.210340   1.100306
+87     0.10 -772.6244      0 1 serial  NA  NA      -Inf      -Inf   1.124336
+88     0.10 -736.0499 -10000 1 serial  NA  NA       NaN       NaN   1.180205
+89     0.10 -788.9981      0 1 serial  NA  NA      -Inf      -Inf   1.101004
+90     0.10 -749.4150 -30000 1 serial  NA  NA       NaN       NaN   1.159157
+91     0.10 -796.6595  10000 1 serial  NA  NA  9.210340  9.210340   1.090415
+92     0.10 -820.7957  20000 1 serial  NA  NA  9.903488  9.903488   1.058351
+93     0.10 -803.3465      0 1 serial  NA  NA      -Inf      -Inf   1.081339
+94     0.10 -795.2745      0 1 serial  NA  NA      -Inf      -Inf   1.092314
+95     0.10 -777.0638      0 1 serial  NA  NA      -Inf      -Inf   1.117913
+96     0.10 -733.4958 -30000 1 serial  NA  NA       NaN       NaN   1.184314
+97     0.10 -735.4777 -20000 1 serial  NA  NA       NaN       NaN   1.181123
+98     0.10 -785.7954 -10000 1 serial  NA  NA       NaN       NaN   1.105491
+99     0.10 -815.3671      0 1 serial  NA  NA      -Inf      -Inf   1.065397
+100    0.10 -808.0692  10000 1 serial  NA  NA  9.210340  9.210340   1.075019
+101    0.20 -756.4405 -30000 1 serial  NA  NA       NaN       NaN   1.148391
+102    0.20 -739.2128 -30000 1 serial  NA  NA       NaN       NaN   1.175155
+103    0.20 -741.6814 -20000 1 serial  NA  NA       NaN       NaN   1.171244
+104    0.20 -742.0151 -30000 1 serial  NA  NA       NaN       NaN   1.170717
+105    0.20 -749.9043 -30000 1 serial  NA  NA       NaN       NaN   1.158401
+106    0.20 -759.6149 -20000 1 serial  NA  NA       NaN       NaN   1.143592
+107    0.20 -786.0079      0 1 serial  NA  NA      -Inf      -Inf   1.105192
+108    0.20 -726.5202 -30000 1 serial  NA  NA       NaN       NaN   1.195686
+109    0.20 -745.0223 -30000 1 serial  NA  NA       NaN       NaN   1.165992
+110    0.20 -749.2728 -20000 1 serial  NA  NA       NaN       NaN   1.159377
+111    0.20 -754.5358 -30000 1 serial  NA  NA       NaN       NaN   1.151290
+112    0.20 -776.7403 -30000 1 serial  NA  NA       NaN       NaN   1.118379
+113    0.20 -724.0724 -30000 1 serial  NA  NA       NaN       NaN   1.199728
+114    0.20 -725.8928 -20000 1 serial  NA  NA       NaN       NaN   1.196719
+115    0.20 -756.4307 -30000 1 serial  NA  NA       NaN       NaN   1.148406
+116    0.20 -755.6991 -30000 1 serial  NA  NA       NaN       NaN   1.149518
+117    0.20 -733.6826 -30000 1 serial  NA  NA       NaN       NaN   1.184013
+118    0.20 -743.6962 -30000 1 serial  NA  NA       NaN       NaN   1.168071
+119    0.20 -738.0892 -10000 1 serial  NA  NA       NaN       NaN   1.176944
+120    0.20 -754.1102 -30000 1 serial  NA  NA       NaN       NaN   1.151940
+121    0.20 -753.8429 -30000 1 serial  NA  NA       NaN       NaN   1.152348
+122    0.20 -765.0201      0 1 serial  NA  NA      -Inf      -Inf   1.135512
+123    0.20 -757.0850 -20000 1 serial  NA  NA       NaN       NaN   1.147414
+124    0.20 -769.9096 -30000 1 serial  NA  NA       NaN       NaN   1.128301
+125    0.20 -740.1065 -30000 1 serial  NA  NA       NaN       NaN   1.173736
+126    0.20 -745.8601 -30000 1 serial  NA  NA       NaN       NaN   1.164682
+127    0.20 -744.5723 -20000 1 serial  NA  NA       NaN       NaN   1.166696
+128    0.20 -729.5375 -30000 1 serial  NA  NA       NaN       NaN   1.190740
+129    0.20 -757.4688 -30000 1 serial  NA  NA       NaN       NaN   1.146832
+130    0.20 -770.3582 -30000 1 serial  NA  NA       NaN       NaN   1.127644
+131    0.20 -732.2543 -30000 1 serial  NA  NA       NaN       NaN   1.186322
+132    0.20 -736.0390 -20000 1 serial  NA  NA       NaN       NaN   1.180222
+133    0.20 -757.1571 -10000 1 serial  NA  NA       NaN       NaN   1.147304
+134    0.20 -717.6678 -30000 1 serial  NA  NA       NaN       NaN   1.210434
+135    0.20 -729.0005 -30000 1 serial  NA  NA       NaN       NaN   1.191617
+136    0.20 -738.1368 -20000 1 serial  NA  NA       NaN       NaN   1.176868
+137    0.20 -786.4652 -20000 1 serial  NA  NA       NaN       NaN   1.104549
+138    0.20 -768.1092 -20000 1 serial  NA  NA       NaN       NaN   1.130946
+139    0.20 -782.1054 -20000 1 serial  NA  NA       NaN       NaN   1.110707
+140    0.20 -755.1439 -10000 1 serial  NA  NA       NaN       NaN   1.150363
+141    0.20 -743.2286 -20000 1 serial  NA  NA       NaN       NaN   1.168806
+142    0.20 -745.1294 -30000 1 serial  NA  NA       NaN       NaN   1.165824
+143    0.20 -770.0345 -20000 1 serial  NA  NA       NaN       NaN   1.128118
+144    0.20 -769.5068 -30000 1 serial  NA  NA       NaN       NaN   1.128892
+145    0.20 -730.8273 -30000 1 serial  NA  NA       NaN       NaN   1.188639
+146    0.20 -764.8627 -30000 1 serial  NA  NA       NaN       NaN   1.135746
+147    0.20 -755.7235 -30000 1 serial  NA  NA       NaN       NaN   1.149481
+148    0.20 -728.7043 -30000 1 serial  NA  NA       NaN       NaN   1.192102
+149    0.20 -747.3141 -30000 1 serial  NA  NA       NaN       NaN   1.162416
+150    0.20 -720.9497 -30000 1 serial  NA  NA       NaN       NaN   1.204924
+151    0.20 -747.5630 -20000 1 serial  NA  NA       NaN       NaN   1.162029
+152    0.20 -745.6489 -30000 1 serial  NA  NA       NaN       NaN   1.165012
+153    0.20 -747.5187 -30000 1 serial  NA  NA       NaN       NaN   1.162098
+154    0.20 -709.7708 -30000 1 serial  NA  NA       NaN       NaN   1.223902
+155    0.20 -727.5558 -30000 1 serial  NA  NA       NaN       NaN   1.193984
+156    0.20 -770.1016 -30000 1 serial  NA  NA       NaN       NaN   1.128020
+157    0.20 -744.6691 -30000 1 serial  NA  NA       NaN       NaN   1.166545
+158    0.20 -747.6654 -20000 1 serial  NA  NA       NaN       NaN   1.161870
+159    0.20 -737.7274 -30000 1 serial  NA  NA       NaN       NaN   1.177521
+160    0.20 -775.3975 -30000 1 serial  NA  NA       NaN       NaN   1.120315
+161    0.20 -743.3644 -30000 1 serial  NA  NA       NaN       NaN   1.168592
+162    0.20 -764.9193 -30000 1 serial  NA  NA       NaN       NaN   1.135662
+163    0.20 -759.6388 -30000 1 serial  NA  NA       NaN       NaN   1.143556
+164    0.20 -770.8913 -20000 1 serial  NA  NA       NaN       NaN   1.126864
+165    0.20 -757.9852 -30000 1 serial  NA  NA       NaN       NaN   1.146051
+166    0.20 -733.9000 -30000 1 serial  NA  NA       NaN       NaN   1.183662
+167    0.20 -767.6616 -30000 1 serial  NA  NA       NaN       NaN   1.131605
+168    0.20 -745.3160 -30000 1 serial  NA  NA       NaN       NaN   1.165532
+169    0.20 -782.1740 -10000 1 serial  NA  NA       NaN       NaN   1.110609
+170    0.20 -745.0228 -30000 1 serial  NA  NA       NaN       NaN   1.165991
+171    0.20 -770.6463 -20000 1 serial  NA  NA       NaN       NaN   1.127222
+172    0.20 -762.2395 -30000 1 serial  NA  NA       NaN       NaN   1.139654
+173    0.20 -736.5154 -20000 1 serial  NA  NA       NaN       NaN   1.179459
+174    0.20 -751.4087 -30000 1 serial  NA  NA       NaN       NaN   1.156081
+175    0.20 -742.5642 -30000 1 serial  NA  NA       NaN       NaN   1.169851
+176    0.20 -740.2008 -30000 1 serial  NA  NA       NaN       NaN   1.173587
+177    0.20 -749.2937 -20000 1 serial  NA  NA       NaN       NaN   1.159345
+178    0.20 -728.7121      0 1 serial  NA  NA      -Inf      -Inf   1.192089
+179    0.20 -766.5517 -30000 1 serial  NA  NA       NaN       NaN   1.133243
+180    0.20 -741.3569 -20000 1 serial  NA  NA       NaN       NaN   1.171756
+181    0.20 -727.4430 -30000 1 serial  NA  NA       NaN       NaN   1.194169
+182    0.20 -758.9247 -30000 1 serial  NA  NA       NaN       NaN   1.144632
+183    0.20 -756.4063 -30000 1 serial  NA  NA       NaN       NaN   1.148443
+184    0.20 -770.9190 -30000 1 serial  NA  NA       NaN       NaN   1.126823
+185    0.20 -738.0364 -30000 1 serial  NA  NA       NaN       NaN   1.177028
+186    0.20 -751.4426 -20000 1 serial  NA  NA       NaN       NaN   1.156029
+187    0.20 -736.7755 -30000 1 serial  NA  NA       NaN       NaN   1.179043
+188    0.20 -739.7259 -30000 1 serial  NA  NA       NaN       NaN   1.174340
+189    0.20 -766.5397 -20000 1 serial  NA  NA       NaN       NaN   1.133261
+190    0.20 -751.6661 -30000 1 serial  NA  NA       NaN       NaN   1.155686
+191    0.20 -737.1150 -20000 1 serial  NA  NA       NaN       NaN   1.178500
+192    0.20 -760.8758 -20000 1 serial  NA  NA       NaN       NaN   1.141697
+193    0.20 -746.5180 -30000 1 serial  NA  NA       NaN       NaN   1.163655
+194    0.20 -731.5924 -30000 1 serial  NA  NA       NaN       NaN   1.187396
+195    0.20 -747.3615 -30000 1 serial  NA  NA       NaN       NaN   1.162342
+196    0.20 -705.5090 -30000 1 serial  NA  NA       NaN       NaN   1.231295
+197    0.20 -747.7692 -20000 1 serial  NA  NA       NaN       NaN   1.161708
+198    0.20 -733.8894 -20000 1 serial  NA  NA       NaN       NaN   1.183679
+199    0.20 -723.5297 -30000 1 serial  NA  NA       NaN       NaN   1.200628
+200    0.20 -766.0568 -30000 1 serial  NA  NA       NaN       NaN   1.133976
+201    0.30 -751.1951 -30000 1 serial  NA  NA       NaN       NaN   1.156410
+202    0.30 -750.5134 -30000 1 serial  NA  NA       NaN       NaN   1.157461
+203    0.30 -753.7576 -30000 1 serial  NA  NA       NaN       NaN   1.152479
+204    0.30 -701.9418 -40000 1 serial  NA  NA       NaN       NaN   1.237552
+205    0.30 -754.6568 -30000 1 serial  NA  NA       NaN       NaN   1.151106
+206    0.30 -764.4268 -30000 1 serial  NA  NA       NaN       NaN   1.136394
+207    0.30 -741.2538 -30000 1 serial  NA  NA       NaN       NaN   1.171919
+208    0.30 -769.8071 -30000 1 serial  NA  NA       NaN       NaN   1.128451
+209    0.30 -742.1859 -40000 1 serial  NA  NA       NaN       NaN   1.170448
+210    0.30 -741.5190 -30000 1 serial  NA  NA       NaN       NaN   1.171500
+211    0.30 -718.0808 -30000 1 serial  NA  NA       NaN       NaN   1.209738
+212    0.30 -745.8668 -20000 1 serial  NA  NA       NaN       NaN   1.164671
+213    0.30 -721.0381 -30000 1 serial  NA  NA       NaN       NaN   1.204776
+214    0.30 -718.8713 -20000 1 serial  NA  NA       NaN       NaN   1.208408
+215    0.30 -716.2713 -30000 1 serial  NA  NA       NaN       NaN   1.212794
+216    0.30 -732.5884 -30000 1 serial  NA  NA       NaN       NaN   1.185781
+217    0.30 -771.5704 -30000 1 serial  NA  NA       NaN       NaN   1.125872
+218    0.30 -740.9091 -30000 1 serial  NA  NA       NaN       NaN   1.172465
+219    0.30 -739.7425 -30000 1 serial  NA  NA       NaN       NaN   1.174314
+220    0.30 -744.1064 -30000 1 serial  NA  NA       NaN       NaN   1.167427
+221    0.30 -716.9982 -20000 1 serial  NA  NA       NaN       NaN   1.211565
+222    0.30 -766.5110 -30000 1 serial  NA  NA       NaN       NaN   1.133304
+223    0.30 -729.8697 -30000 1 serial  NA  NA       NaN       NaN   1.190198
+224    0.30 -763.9994 -30000 1 serial  NA  NA       NaN       NaN   1.137029
+225    0.30 -738.8801 -30000 1 serial  NA  NA       NaN       NaN   1.175684
+226    0.30 -746.5536 -30000 1 serial  NA  NA       NaN       NaN   1.163600
+227    0.30 -763.7277 -30000 1 serial  NA  NA       NaN       NaN   1.137434
+228    0.30 -726.7220 -30000 1 serial  NA  NA       NaN       NaN   1.195354
+229    0.30 -745.5518 -40000 1 serial  NA  NA       NaN       NaN   1.165164
+230    0.30 -743.5852 -10000 1 serial  NA  NA       NaN       NaN   1.168245
+231    0.30 -727.9719 -30000 1 serial  NA  NA       NaN       NaN   1.193301
+232    0.30 -727.9903 -30000 1 serial  NA  NA       NaN       NaN   1.193271
+233    0.30 -752.5507 -30000 1 serial  NA  NA       NaN       NaN   1.154327
+234    0.30 -744.8374 -30000 1 serial  NA  NA       NaN       NaN   1.166281
+235    0.30 -719.3275 -30000 1 serial  NA  NA       NaN       NaN   1.207641
+236    0.30 -744.5591 -30000 1 serial  NA  NA       NaN       NaN   1.166717
+237    0.30 -749.0921 -30000 1 serial  NA  NA       NaN       NaN   1.159657
+238    0.30 -748.5315 -20000 1 serial  NA  NA       NaN       NaN   1.160525
+239    0.30 -758.1473 -20000 1 serial  NA  NA       NaN       NaN   1.145806
+240    0.30 -707.5175 -30000 1 serial  NA  NA       NaN       NaN   1.227800
+241    0.30 -775.8737 -20000 1 serial  NA  NA       NaN       NaN   1.119628
+242    0.30 -765.3114 -30000 1 serial  NA  NA       NaN       NaN   1.135080
+243    0.30 -766.0880 -30000 1 serial  NA  NA       NaN       NaN   1.133929
+244    0.30 -725.8184 -30000 1 serial  NA  NA       NaN       NaN   1.196842
+245    0.30 -711.7589 -30000 1 serial  NA  NA       NaN       NaN   1.220483
+246    0.30 -761.3505 -30000 1 serial  NA  NA       NaN       NaN   1.140985
+247    0.30 -756.2825 -30000 1 serial  NA  NA       NaN       NaN   1.148631
+248    0.30 -728.3687 -30000 1 serial  NA  NA       NaN       NaN   1.192651
+249    0.30 -743.1224 -30000 1 serial  NA  NA       NaN       NaN   1.168973
+250    0.30 -743.7919 -20000 1 serial  NA  NA       NaN       NaN   1.167920
+251    0.30 -753.3287 -30000 1 serial  NA  NA       NaN       NaN   1.153135
+252    0.30 -731.1788 -30000 1 serial  NA  NA       NaN       NaN   1.188067
+253    0.30 -726.8393 -30000 1 serial  NA  NA       NaN       NaN   1.195161
+254    0.30 -772.4886 -30000 1 serial  NA  NA       NaN       NaN   1.124534
+255    0.30 -715.3500 -20000 1 serial  NA  NA       NaN       NaN   1.214356
+256    0.30 -769.4303 -30000 1 serial  NA  NA       NaN       NaN   1.129004
+257    0.30 -756.4884 -30000 1 serial  NA  NA       NaN       NaN   1.148319
+258    0.30 -780.8720 -30000 1 serial  NA  NA       NaN       NaN   1.112461
+259    0.30 -741.2117 -20000 1 serial  NA  NA       NaN       NaN   1.171986
+260    0.30 -753.0776 -30000 1 serial  NA  NA       NaN       NaN   1.153520
+261    0.30 -721.2470 -30000 1 serial  NA  NA       NaN       NaN   1.204427
+262    0.30 -746.3518 -30000 1 serial  NA  NA       NaN       NaN   1.163915
+263    0.30 -711.7917 -30000 1 serial  NA  NA       NaN       NaN   1.220427
+264    0.30 -770.4841 -30000 1 serial  NA  NA       NaN       NaN   1.127460
+265    0.30 -753.3928 -30000 1 serial  NA  NA       NaN       NaN   1.153037
+266    0.30 -725.7789 -30000 1 serial  NA  NA       NaN       NaN   1.196907
+267    0.30 -754.0300 -30000 1 serial  NA  NA       NaN       NaN   1.152062
+268    0.30 -730.9104 -30000 1 serial  NA  NA       NaN       NaN   1.188504
+269    0.30 -778.2755 -30000 1 serial  NA  NA       NaN       NaN   1.116173
+270    0.30 -749.3187 -30000 1 serial  NA  NA       NaN       NaN   1.159306
+271    0.30 -751.6670 -30000 1 serial  NA  NA       NaN       NaN   1.155684
+272    0.30 -744.6354 -30000 1 serial  NA  NA       NaN       NaN   1.166597
+273    0.30 -726.5666 -30000 1 serial  NA  NA       NaN       NaN   1.195609
+274    0.30 -748.7009 -30000 1 serial  NA  NA       NaN       NaN   1.160263
+275    0.30 -748.4850 -30000 1 serial  NA  NA       NaN       NaN   1.160597
+276    0.30 -759.3001 -30000 1 serial  NA  NA       NaN       NaN   1.144066
+277    0.30 -760.6303 -30000 1 serial  NA  NA       NaN       NaN   1.142066
+278    0.30 -753.7956 -30000 1 serial  NA  NA       NaN       NaN   1.152421
+279    0.30 -760.3990 -20000 1 serial  NA  NA       NaN       NaN   1.142413
+280    0.30 -725.7049 -30000 1 serial  NA  NA       NaN       NaN   1.197029
+281    0.30 -754.2990 -30000 1 serial  NA  NA       NaN       NaN   1.151652
+282    0.30 -742.5615 -30000 1 serial  NA  NA       NaN       NaN   1.169856
+283    0.30 -764.2196 -30000 1 serial  NA  NA       NaN       NaN   1.136702
+284    0.30 -757.2073 -20000 1 serial  NA  NA       NaN       NaN   1.147228
+285    0.30 -761.5235 -30000 1 serial  NA  NA       NaN       NaN   1.140726
+286    0.30 -719.4045 -30000 1 serial  NA  NA       NaN       NaN   1.207512
+287    0.30 -757.5599 -30000 1 serial  NA  NA       NaN       NaN   1.146694
+288    0.30 -731.8297 -30000 1 serial  NA  NA       NaN       NaN   1.187011
+289    0.30 -740.0167 -30000 1 serial  NA  NA       NaN       NaN   1.173879
+290    0.30 -736.0690 -30000 1 serial  NA  NA       NaN       NaN   1.180174
+291    0.30 -769.8661 -30000 1 serial  NA  NA       NaN       NaN   1.128365
+292    0.30 -724.4189 -30000 1 serial  NA  NA       NaN       NaN   1.199154
+293    0.30 -750.7381 -30000 1 serial  NA  NA       NaN       NaN   1.157114
+294    0.30 -751.6394 -30000 1 serial  NA  NA       NaN       NaN   1.155727
+295    0.30 -761.5795 -30000 1 serial  NA  NA       NaN       NaN   1.140642
+296    0.30 -761.1395 -30000 1 serial  NA  NA       NaN       NaN   1.141302
+297    0.30 -774.0234 -30000 1 serial  NA  NA       NaN       NaN   1.122304
+298    0.30 -735.9136 -30000 1 serial  NA  NA       NaN       NaN   1.180423
+299    0.30 -793.6113 -30000 1 serial  NA  NA       NaN       NaN   1.094603
+300    0.30 -745.0381 -30000 1 serial  NA  NA       NaN       NaN   1.165967
+301    0.40 -754.4672 -30000 1 serial  NA  NA       NaN       NaN   1.151395
+302    0.40 -715.0870 -30000 1 serial  NA  NA       NaN       NaN   1.214803
+303    0.40 -773.5575 -30000 1 serial  NA  NA       NaN       NaN   1.122980
+304    0.40 -731.0016 -30000 1 serial  NA  NA       NaN       NaN   1.188355
+305    0.40 -769.8692 -30000 1 serial  NA  NA       NaN       NaN   1.128360
+306    0.40 -727.2225 -30000 1 serial  NA  NA       NaN       NaN   1.194531
+307    0.40 -749.2495 -30000 1 serial  NA  NA       NaN       NaN   1.159413
+308    0.40 -714.9915 -30000 1 serial  NA  NA       NaN       NaN   1.214965
+309    0.40 -774.0023 -30000 1 serial  NA  NA       NaN       NaN   1.122335
+310    0.40 -739.3177 -30000 1 serial  NA  NA       NaN       NaN   1.174988
+311    0.40 -760.2732 -30000 1 serial  NA  NA       NaN       NaN   1.142602
+312    0.40 -778.8051 -30000 1 serial  NA  NA       NaN       NaN   1.115413
+313    0.40 -725.0558 -30000 1 serial  NA  NA       NaN       NaN   1.198100
+314    0.40 -758.4816 -30000 1 serial  NA  NA       NaN       NaN   1.145301
+315    0.40 -749.6304 -20000 1 serial  NA  NA       NaN       NaN   1.158824
+316    0.40 -756.0300 -30000 1 serial  NA  NA       NaN       NaN   1.149015
+317    0.40 -742.2173 -30000 1 serial  NA  NA       NaN       NaN   1.170398
+318    0.40 -769.6137 -30000 1 serial  NA  NA       NaN       NaN   1.128735
+319    0.40 -745.7519 -30000 1 serial  NA  NA       NaN       NaN   1.164851
+320    0.40 -726.8951 -30000 1 serial  NA  NA       NaN       NaN   1.195069
+321    0.40 -777.2123 -30000 1 serial  NA  NA       NaN       NaN   1.117699
+322    0.40 -750.7471 -30000 1 serial  NA  NA       NaN       NaN   1.157100
+323    0.40 -738.2366 -30000 1 serial  NA  NA       NaN       NaN   1.176709
+324    0.40 -728.4341 -30000 1 serial  NA  NA       NaN       NaN   1.192544
+325    0.40 -712.3612 -30000 1 serial  NA  NA       NaN       NaN   1.219451
+326    0.40 -758.4465 -30000 1 serial  NA  NA       NaN       NaN   1.145354
+327    0.40 -750.2307 -30000 1 serial  NA  NA       NaN       NaN   1.157897
+328    0.40 -761.4791 -30000 1 serial  NA  NA       NaN       NaN   1.140793
+329    0.40 -755.2751 -30000 1 serial  NA  NA       NaN       NaN   1.150163
+330    0.40 -736.4112 -30000 1 serial  NA  NA       NaN       NaN   1.179626
+331    0.40 -748.7856 -30000 1 serial  NA  NA       NaN       NaN   1.160131
+332    0.40 -735.9872 -30000 1 serial  NA  NA       NaN       NaN   1.180305
+333    0.40 -725.2188 -30000 1 serial  NA  NA       NaN       NaN   1.197831
+334    0.40 -733.5728 -30000 1 serial  NA  NA       NaN       NaN   1.184190
+335    0.40 -726.3951 -30000 1 serial  NA  NA       NaN       NaN   1.195891
+336    0.40 -757.8350 -30000 1 serial  NA  NA       NaN       NaN   1.146278
+337    0.40 -743.1036 -30000 1 serial  NA  NA       NaN       NaN   1.169002
+338    0.40 -754.1067 -30000 1 serial  NA  NA       NaN       NaN   1.151945
+339    0.40 -758.2193 -30000 1 serial  NA  NA       NaN       NaN   1.145697
+340    0.40 -747.2287 -30000 1 serial  NA  NA       NaN       NaN   1.162549
+341    0.40 -747.8046 -30000 1 serial  NA  NA       NaN       NaN   1.161653
+342    0.40 -731.1093 -10000 1 serial  NA  NA       NaN       NaN   1.188180
+343    0.40 -782.7793 -20000 1 serial  NA  NA       NaN       NaN   1.109750
+344    0.40 -735.3929 -30000 1 serial  NA  NA       NaN       NaN   1.181259
+345    0.40 -723.1753 -30000 1 serial  NA  NA       NaN       NaN   1.201216
+346    0.40 -753.0133 -20000 1 serial  NA  NA       NaN       NaN   1.153618
+347    0.40 -745.9014 -30000 1 serial  NA  NA       NaN       NaN   1.164617
+348    0.40 -744.0894 -20000 1 serial  NA  NA       NaN       NaN   1.167453
+349    0.40 -739.7317 -30000 1 serial  NA  NA       NaN       NaN   1.174331
+350    0.40 -761.8824 -30000 1 serial  NA  NA       NaN       NaN   1.140189
+351    0.40 -743.5291 -30000 1 serial  NA  NA       NaN       NaN   1.168333
+352    0.40 -750.2093 -30000 1 serial  NA  NA       NaN       NaN   1.157930
+353    0.40 -744.7385 -30000 1 serial  NA  NA       NaN       NaN   1.166436
+354    0.40 -721.2460 -30000 1 serial  NA  NA       NaN       NaN   1.204429
+355    0.40 -747.9742 -30000 1 serial  NA  NA       NaN       NaN   1.161390
+356    0.40 -753.7755 -30000 1 serial  NA  NA       NaN       NaN   1.152451
+357    0.40 -738.8141 -30000 1 serial  NA  NA       NaN       NaN   1.175789
+358    0.40 -717.8262 -30000 1 serial  NA  NA       NaN       NaN   1.210167
+359    0.40 -727.7014 -20000 1 serial  NA  NA       NaN       NaN   1.193745
+360    0.40 -777.2778 -20000 1 serial  NA  NA       NaN       NaN   1.117605
+361    0.40 -792.0234 -30000 1 serial  NA  NA       NaN       NaN   1.096798
+362    0.40 -743.8775 -30000 1 serial  NA  NA       NaN       NaN   1.167786
+363    0.40 -769.8070 -30000 1 serial  NA  NA       NaN       NaN   1.128451
+364    0.40 -764.5414 -20000 1 serial  NA  NA       NaN       NaN   1.136223
+365    0.40 -763.7940 -30000 1 serial  NA  NA       NaN       NaN   1.137335
+366    0.40 -723.2676 -30000 1 serial  NA  NA       NaN       NaN   1.201063
+367    0.40 -726.6134 -30000 1 serial  NA  NA       NaN       NaN   1.195532
+368    0.40 -761.0922 -30000 1 serial  NA  NA       NaN       NaN   1.141372
+369    0.40 -763.3680 -30000 1 serial  NA  NA       NaN       NaN   1.137970
+370    0.40 -778.5875 -30000 1 serial  NA  NA       NaN       NaN   1.115725
+371    0.40 -752.4613 -30000 1 serial  NA  NA       NaN       NaN   1.154464
+372    0.40 -743.7902 -30000 1 serial  NA  NA       NaN       NaN   1.167923
+373    0.40 -733.3714 -30000 1 serial  NA  NA       NaN       NaN   1.184515
+374    0.40 -715.7683 -30000 1 serial  NA  NA       NaN       NaN   1.213646
+375    0.40 -765.9902 -20000 1 serial  NA  NA       NaN       NaN   1.134074
+376    0.40 -734.6661 -30000 1 serial  NA  NA       NaN       NaN   1.182428
+377    0.40 -758.8312 -40000 1 serial  NA  NA       NaN       NaN   1.144773
+378    0.40 -751.0410 -30000 1 serial  NA  NA       NaN       NaN   1.156648
+379    0.40 -732.3595 -30000 1 serial  NA  NA       NaN       NaN   1.186152
+380    0.40 -748.6081 -30000 1 serial  NA  NA       NaN       NaN   1.160406
+381    0.40 -784.7772 -30000 1 serial  NA  NA       NaN       NaN   1.106925
+382    0.40 -757.3850 -20000 1 serial  NA  NA       NaN       NaN   1.146959
+383    0.40 -740.0824 -30000 1 serial  NA  NA       NaN       NaN   1.173774
+384    0.40 -746.3142 -30000 1 serial  NA  NA       NaN       NaN   1.163973
+385    0.40 -738.2336 -30000 1 serial  NA  NA       NaN       NaN   1.176714
+386    0.40 -769.4708 -30000 1 serial  NA  NA       NaN       NaN   1.128944
+387    0.40 -739.3780 -20000 1 serial  NA  NA       NaN       NaN   1.174893
+388    0.40 -741.2129 -30000 1 serial  NA  NA       NaN       NaN   1.171984
+389    0.40 -755.7548 -30000 1 serial  NA  NA       NaN       NaN   1.149433
+390    0.40 -738.4255 -20000 1 serial  NA  NA       NaN       NaN   1.176408
+391    0.40 -751.1813 -30000 1 serial  NA  NA       NaN       NaN   1.156431
+392    0.40 -740.8507 -30000 1 serial  NA  NA       NaN       NaN   1.172557
+393    0.40 -718.8690 -20000 1 serial  NA  NA       NaN       NaN   1.208412
+394    0.40 -749.8550 -30000 1 serial  NA  NA       NaN       NaN   1.158477
+395    0.40 -692.7589 -30000 1 serial  NA  NA       NaN       NaN   1.253957
+396    0.40 -734.1215 -30000 1 serial  NA  NA       NaN       NaN   1.183305
+397    0.40 -703.9469 -30000 1 serial  NA  NA       NaN       NaN   1.234027
+398    0.40 -728.4665 -30000 1 serial  NA  NA       NaN       NaN   1.192491
+399    0.40 -737.0758 -30000 1 serial  NA  NA       NaN       NaN   1.178562
+400    0.40 -720.5257 -40000 1 serial  NA  NA       NaN       NaN   1.205633
+401    0.50 -768.9849 -20000 1 serial  NA  NA       NaN       NaN   1.129658
+402    0.50 -747.4947 -30000 1 serial  NA  NA       NaN       NaN   1.162135
+403    0.50 -728.2056 -30000 1 serial  NA  NA       NaN       NaN   1.192918
+404    0.50 -782.1344 -20000 1 serial  NA  NA       NaN       NaN   1.110665
+405    0.50 -720.0774 -30000 1 serial  NA  NA       NaN       NaN   1.206384
+406    0.50 -756.8235 -30000 1 serial  NA  NA       NaN       NaN   1.147810
+407    0.50 -782.7029 -20000 1 serial  NA  NA       NaN       NaN   1.109859
+408    0.50 -741.9302 -30000 1 serial  NA  NA       NaN       NaN   1.170851
+409    0.50 -731.8413 -30000 1 serial  NA  NA       NaN       NaN   1.186992
+410    0.50 -757.1989 -30000 1 serial  NA  NA       NaN       NaN   1.147241
+411    0.50 -759.5379 -10000 1 serial  NA  NA       NaN       NaN   1.143708
+412    0.50 -747.2048 -30000 1 serial  NA  NA       NaN       NaN   1.162586
+413    0.50 -772.3549 -30000 1 serial  NA  NA       NaN       NaN   1.124729
+414    0.50 -770.1955 -30000 1 serial  NA  NA       NaN       NaN   1.127882
+415    0.50 -749.5877 -30000 1 serial  NA  NA       NaN       NaN   1.158890
+416    0.50 -763.6532 -30000 1 serial  NA  NA       NaN       NaN   1.137545
+417    0.50 -716.4772 -20000 1 serial  NA  NA       NaN       NaN   1.212446
+418    0.50 -701.4218 -30000 1 serial  NA  NA       NaN       NaN   1.238470
+419    0.50 -709.3818 -30000 1 serial  NA  NA       NaN       NaN   1.224573
+420    0.50 -740.6009 -30000 1 serial  NA  NA       NaN       NaN   1.172953
+421    0.50 -743.8007 -30000 1 serial  NA  NA       NaN       NaN   1.167906
+422    0.50 -737.9322 -30000 1 serial  NA  NA       NaN       NaN   1.177195
+423    0.50 -743.4587 -30000 1 serial  NA  NA       NaN       NaN   1.168444
+424    0.50 -723.4044 -30000 1 serial  NA  NA       NaN       NaN   1.200835
+425    0.50 -747.4564 -30000 1 serial  NA  NA       NaN       NaN   1.162194
+426    0.50 -726.7429 -30000 1 serial  NA  NA       NaN       NaN   1.195319
+427    0.50 -734.6970 -30000 1 serial  NA  NA       NaN       NaN   1.182378
+428    0.50 -745.1570 -30000 1 serial  NA  NA       NaN       NaN   1.165781
+429    0.50 -761.3976 -30000 1 serial  NA  NA       NaN       NaN   1.140915
+430    0.50 -746.7654 -30000 1 serial  NA  NA       NaN       NaN   1.163270
+431    0.50 -739.5505 -30000 1 serial  NA  NA       NaN       NaN   1.174618
+432    0.50 -722.9721 -30000 1 serial  NA  NA       NaN       NaN   1.201554
+433    0.50 -760.1667 -30000 1 serial  NA  NA       NaN       NaN   1.142762
+434    0.50 -748.6679 -30000 1 serial  NA  NA       NaN       NaN   1.160314
+435    0.50 -762.8784 -30000 1 serial  NA  NA       NaN       NaN   1.138700
+436    0.50 -734.0437 -30000 1 serial  NA  NA       NaN       NaN   1.183431
+437    0.50 -747.0669 -30000 1 serial  NA  NA       NaN       NaN   1.162800
+438    0.50 -747.1472 -30000 1 serial  NA  NA       NaN       NaN   1.162675
+439    0.50 -760.4431 -30000 1 serial  NA  NA       NaN       NaN   1.142347
+440    0.50 -747.0367 -30000 1 serial  NA  NA       NaN       NaN   1.162847
+441    0.50 -741.3517 -30000 1 serial  NA  NA       NaN       NaN   1.171765
+442    0.50 -729.2831 -30000 1 serial  NA  NA       NaN       NaN   1.191156
+443    0.50 -751.8164 -30000 1 serial  NA  NA       NaN       NaN   1.155455
+444    0.50 -751.6571 -30000 1 serial  NA  NA       NaN       NaN   1.155699
+445    0.50 -723.2375 -30000 1 serial  NA  NA       NaN       NaN   1.201113
+446    0.50 -762.4261 -30000 1 serial  NA  NA       NaN       NaN   1.139376
+447    0.50 -751.4862 -30000 1 serial  NA  NA       NaN       NaN   1.155962
+448    0.50 -750.7649 -30000 1 serial  NA  NA       NaN       NaN   1.157073
+449    0.50 -759.7317 -30000 1 serial  NA  NA       NaN       NaN   1.143416
+450    0.50 -715.2352 -30000 1 serial  NA  NA       NaN       NaN   1.214551
+451    0.50 -732.8827 -30000 1 serial  NA  NA       NaN       NaN   1.185305
+452    0.50 -750.0848 -30000 1 serial  NA  NA       NaN       NaN   1.158122
+453    0.50 -743.6684 -30000 1 serial  NA  NA       NaN       NaN   1.168114
+454    0.50 -731.0825 -20000 1 serial  NA  NA       NaN       NaN   1.188224
+455    0.50 -737.4297 -30000 1 serial  NA  NA       NaN       NaN   1.177997
+456    0.50 -767.2515 -30000 1 serial  NA  NA       NaN       NaN   1.132210
+457    0.50 -746.7317 -30000 1 serial  NA  NA       NaN       NaN   1.163322
+458    0.50 -726.4538 -30000 1 serial  NA  NA       NaN       NaN   1.195795
+459    0.50 -721.9004 -10000 1 serial  NA  NA       NaN       NaN   1.203337
+460    0.50 -741.8516 -30000 1 serial  NA  NA       NaN       NaN   1.170975
+461    0.50 -758.1358 -30000 1 serial  NA  NA       NaN       NaN   1.145823
+462    0.50 -785.5545 -20000 1 serial  NA  NA       NaN       NaN   1.105830
+463    0.50 -721.0233 -30000 1 serial  NA  NA       NaN       NaN   1.204801
+464    0.50 -755.1600 -20000 1 serial  NA  NA       NaN       NaN   1.150339
+465    0.50 -729.3020 -30000 1 serial  NA  NA       NaN       NaN   1.191125
+466    0.50 -762.1817 -30000 1 serial  NA  NA       NaN       NaN   1.139741
+467    0.50 -704.5314 -30000 1 serial  NA  NA       NaN       NaN   1.233004
+468    0.50 -740.8566 -30000 1 serial  NA  NA       NaN       NaN   1.172548
+469    0.50 -746.0997 -20000 1 serial  NA  NA       NaN       NaN   1.164308
+470    0.50 -743.5070 -30000 1 serial  NA  NA       NaN       NaN   1.168368
+471    0.50 -736.8356 -30000 1 serial  NA  NA       NaN       NaN   1.178947
+472    0.50 -743.4942 -30000 1 serial  NA  NA       NaN       NaN   1.168388
+473    0.50 -756.2880 -30000 1 serial  NA  NA       NaN       NaN   1.148623
+474    0.50 -723.2142 -20000 1 serial  NA  NA       NaN       NaN   1.201151
+475    0.50 -749.3685 -30000 1 serial  NA  NA       NaN       NaN   1.159229
+476    0.50 -757.4437 -30000 1 serial  NA  NA       NaN       NaN   1.146870
+477    0.50 -724.0128 -30000 1 serial  NA  NA       NaN       NaN   1.199827
+478    0.50 -732.4839 -20000 1 serial  NA  NA       NaN       NaN   1.185951
+479    0.50 -755.3052 -30000 1 serial  NA  NA       NaN       NaN   1.150118
+480    0.50 -732.1671 -30000 1 serial  NA  NA       NaN       NaN   1.186464
+481    0.50 -736.5652 -30000 1 serial  NA  NA       NaN       NaN   1.179379
+482    0.50 -743.6743 -30000 1 serial  NA  NA       NaN       NaN   1.168105
+483    0.50 -732.2061 -30000 1 serial  NA  NA       NaN       NaN   1.186400
+484    0.50 -763.0810 -30000 1 serial  NA  NA       NaN       NaN   1.138398
+485    0.50 -757.7172 -30000 1 serial  NA  NA       NaN       NaN   1.146456
+486    0.50 -719.4238 -30000 1 serial  NA  NA       NaN       NaN   1.207480
+487    0.50 -747.0106 -30000 1 serial  NA  NA       NaN       NaN   1.162888
+488    0.50 -743.8058 -30000 1 serial  NA  NA       NaN       NaN   1.167899
+489    0.50 -757.4040 -30000 1 serial  NA  NA       NaN       NaN   1.146930
+490    0.50 -718.6346 -30000 1 serial  NA  NA       NaN       NaN   1.208806
+491    0.50 -754.3479 -30000 1 serial  NA  NA       NaN       NaN   1.151577
+492    0.50 -732.7561 -30000 1 serial  NA  NA       NaN       NaN   1.185510
+493    0.50 -742.9760 -20000 1 serial  NA  NA       NaN       NaN   1.169203
+494    0.50 -766.8808 -30000 1 serial  NA  NA       NaN       NaN   1.132757
+495    0.50 -740.0749 -30000 1 serial  NA  NA       NaN       NaN   1.173786
+496    0.50 -735.0829 -30000 1 serial  NA  NA       NaN       NaN   1.181757
+497    0.50 -719.0286 -30000 1 serial  NA  NA       NaN       NaN   1.208143
+498    0.50 -758.6099 -30000 1 serial  NA  NA       NaN       NaN   1.145107
+499    0.50 -733.6132 -30000 1 serial  NA  NA       NaN       NaN   1.184125
+500    0.50 -723.1013 -30000 1 serial  NA  NA       NaN       NaN   1.201339
+501    0.60 -755.5606 -30000 1 serial  NA  NA       NaN       NaN   1.149729
+502    0.60 -741.0043 -30000 1 serial  NA  NA       NaN       NaN   1.172314
+503    0.60 -730.3947 -30000 1 serial  NA  NA       NaN       NaN   1.189343
+504    0.60 -702.4428 -30000 1 serial  NA  NA       NaN       NaN   1.236670
+505    0.60 -728.5829 -20000 1 serial  NA  NA       NaN       NaN   1.192300
+506    0.60 -737.1122 -30000 1 serial  NA  NA       NaN       NaN   1.178504
+507    0.60 -714.7282 -30000 1 serial  NA  NA       NaN       NaN   1.215413
+508    0.60 -715.7137 -30000 1 serial  NA  NA       NaN       NaN   1.213739
+509    0.60 -740.3311 -30000 1 serial  NA  NA       NaN       NaN   1.173380
+510    0.60 -744.1143 -30000 1 serial  NA  NA       NaN       NaN   1.167414
+511    0.60 -726.8783 -30000 1 serial  NA  NA       NaN       NaN   1.195096
+512    0.60 -717.0788 -30000 1 serial  NA  NA       NaN       NaN   1.211428
+513    0.60 -738.6674 -30000 1 serial  NA  NA       NaN       NaN   1.176023
+514    0.60 -724.0556 -30000 1 serial  NA  NA       NaN       NaN   1.199755
+515    0.60 -754.0852 -30000 1 serial  NA  NA       NaN       NaN   1.151978
+516    0.60 -769.1382 -30000 1 serial  NA  NA       NaN       NaN   1.129433
+517    0.60 -725.6322 -30000 1 serial  NA  NA       NaN       NaN   1.197149
+518    0.60 -782.2957 -20000 1 serial  NA  NA       NaN       NaN   1.110437
+519    0.60 -757.2334 -30000 1 serial  NA  NA       NaN       NaN   1.147189
+520    0.60 -730.5032 -30000 1 serial  NA  NA       NaN       NaN   1.189166
+521    0.60 -731.1194 -30000 1 serial  NA  NA       NaN       NaN   1.188164
+522    0.60 -732.4846 -40000 1 serial  NA  NA       NaN       NaN   1.185949
+523    0.60 -721.1756 -30000 1 serial  NA  NA       NaN       NaN   1.204547
+524    0.60 -744.4623 -30000 1 serial  NA  NA       NaN       NaN   1.166869
+525    0.60 -759.0894 -30000 1 serial  NA  NA       NaN       NaN   1.144384
+526    0.60 -758.3904 -30000 1 serial  NA  NA       NaN       NaN   1.145439
+527    0.60 -730.7129 -20000 1 serial  NA  NA       NaN       NaN   1.188825
+528    0.60 -765.6432 -30000 1 serial  NA  NA       NaN       NaN   1.134588
+529    0.60 -755.1930 -20000 1 serial  NA  NA       NaN       NaN   1.150288
+530    0.60 -739.9322 -30000 1 serial  NA  NA       NaN       NaN   1.174013
+531    0.60 -754.8041 -20000 1 serial  NA  NA       NaN       NaN   1.150881
+532    0.60 -742.6047 -30000 1 serial  NA  NA       NaN       NaN   1.169788
+533    0.60 -753.3219 -30000 1 serial  NA  NA       NaN       NaN   1.153145
+534    0.60 -740.4797 -30000 1 serial  NA  NA       NaN       NaN   1.173145
+535    0.60 -754.9818 -30000 1 serial  NA  NA       NaN       NaN   1.150610
+536    0.60 -761.5497 -30000 1 serial  NA  NA       NaN       NaN   1.140687
+537    0.60 -713.5223 -30000 1 serial  NA  NA       NaN       NaN   1.217467
+538    0.60 -743.5103 -30000 1 serial  NA  NA       NaN       NaN   1.168363
+539    0.60 -736.2798 -30000 1 serial  NA  NA       NaN       NaN   1.179836
+540    0.60 -732.2363 -30000 1 serial  NA  NA       NaN       NaN   1.186352
+541    0.60 -763.1950 -30000 1 serial  NA  NA       NaN       NaN   1.138228
+542    0.60 -740.2287 -30000 1 serial  NA  NA       NaN       NaN   1.173542
+543    0.60 -736.9125 -30000 1 serial  NA  NA       NaN       NaN   1.178823
+544    0.60 -738.2672 -30000 1 serial  NA  NA       NaN       NaN   1.176660
+545    0.60 -745.7312 -30000 1 serial  NA  NA       NaN       NaN   1.164883
+546    0.60 -722.8040 -30000 1 serial  NA  NA       NaN       NaN   1.201833
+547    0.60 -775.5675 -30000 1 serial  NA  NA       NaN       NaN   1.120070
+548    0.60 -755.8871 -30000 1 serial  NA  NA       NaN       NaN   1.149232
+549    0.60 -734.2029 -30000 1 serial  NA  NA       NaN       NaN   1.183174
+550    0.60 -744.4239 -30000 1 serial  NA  NA       NaN       NaN   1.166929
+551    0.60 -736.2235 -30000 1 serial  NA  NA       NaN       NaN   1.179927
+552    0.60 -749.6814 -30000 1 serial  NA  NA       NaN       NaN   1.158745
+553    0.60 -729.8901 -20000 1 serial  NA  NA       NaN       NaN   1.190165
+554    0.60 -727.5727 -30000 1 serial  NA  NA       NaN       NaN   1.193956
+555    0.60 -744.8214 -20000 1 serial  NA  NA       NaN       NaN   1.166306
+556    0.60 -750.4772 -30000 1 serial  NA  NA       NaN       NaN   1.157516
+557    0.60 -728.4511 -30000 1 serial  NA  NA       NaN       NaN   1.192516
+558    0.60 -762.0762 -30000 1 serial  NA  NA       NaN       NaN   1.139899
+559    0.60 -727.8446 -30000 1 serial  NA  NA       NaN       NaN   1.193510
+560    0.60 -779.3445 -30000 1 serial  NA  NA       NaN       NaN   1.114641
+561    0.60 -753.7123 -30000 1 serial  NA  NA       NaN       NaN   1.152548
+562    0.60 -740.8646 -20000 1 serial  NA  NA       NaN       NaN   1.172535
+563    0.60 -737.0264 -30000 1 serial  NA  NA       NaN       NaN   1.178641
+564    0.60 -736.5913 -30000 1 serial  NA  NA       NaN       NaN   1.179337
+565    0.60 -753.9573 -30000 1 serial  NA  NA       NaN       NaN   1.152174
+566    0.60 -764.5885 -30000 1 serial  NA  NA       NaN       NaN   1.136153
+567    0.60 -773.4566 -30000 1 serial  NA  NA       NaN       NaN   1.123127
+568    0.60 -754.3809 -10000 1 serial  NA  NA       NaN       NaN   1.151527
+569    0.60 -746.9686 -30000 1 serial  NA  NA       NaN       NaN   1.162953
+570    0.60 -766.1374 -30000 1 serial  NA  NA       NaN       NaN   1.133856
+571    0.60 -754.8536 -30000 1 serial  NA  NA       NaN       NaN   1.150805
+572    0.60 -737.0371 -30000 1 serial  NA  NA       NaN       NaN   1.178624
+573    0.60 -770.2425 -30000 1 serial  NA  NA       NaN       NaN   1.127813
+574    0.60 -760.8245 -30000 1 serial  NA  NA       NaN       NaN   1.141774
+575    0.60 -715.5782 -30000 1 serial  NA  NA       NaN       NaN   1.213969
+576    0.60 -736.2975 -30000 1 serial  NA  NA       NaN       NaN   1.179808
+577    0.60 -768.2507 -30000 1 serial  NA  NA       NaN       NaN   1.130737
+578    0.60 -739.7594 -30000 1 serial  NA  NA       NaN       NaN   1.174287
+579    0.60 -736.1575 -30000 1 serial  NA  NA       NaN       NaN   1.180032
+580    0.60 -740.3944 -30000 1 serial  NA  NA       NaN       NaN   1.173280
+581    0.60 -751.6462 -30000 1 serial  NA  NA       NaN       NaN   1.155716
+582    0.60 -710.1011 -30000 1 serial  NA  NA       NaN       NaN   1.223332
+583    0.60 -743.3121 -30000 1 serial  NA  NA       NaN       NaN   1.168674
+584    0.60 -711.4482 -30000 1 serial  NA  NA       NaN       NaN   1.221016
+585    0.60 -767.5549 -30000 1 serial  NA  NA       NaN       NaN   1.131762
+586    0.60 -746.3902 -30000 1 serial  NA  NA       NaN       NaN   1.163855
+587    0.60 -773.2215 -10000 1 serial  NA  NA       NaN       NaN   1.123468
+588    0.60 -718.1344 -30000 1 serial  NA  NA       NaN       NaN   1.209648
+589    0.60 -762.1506 -30000 1 serial  NA  NA       NaN       NaN   1.139788
+590    0.60 -750.3350 -30000 1 serial  NA  NA       NaN       NaN   1.157736
+591    0.60 -749.9321 -30000 1 serial  NA  NA       NaN       NaN   1.158358
+592    0.60 -749.8791 -30000 1 serial  NA  NA       NaN       NaN   1.158440
+593    0.60 -738.9141 -30000 1 serial  NA  NA       NaN       NaN   1.175630
+594    0.60 -704.5566 -30000 1 serial  NA  NA       NaN       NaN   1.232959
+595    0.60 -756.9897 -30000 1 serial  NA  NA       NaN       NaN   1.147558
+596    0.60 -724.6784 -20000 1 serial  NA  NA       NaN       NaN   1.198724
+597    0.60 -712.3653 -30000 1 serial  NA  NA       NaN       NaN   1.219444
+598    0.60 -732.4640 -30000 1 serial  NA  NA       NaN       NaN   1.185983
+599    0.60 -765.3875 -30000 1 serial  NA  NA       NaN       NaN   1.134967
+600    0.60 -736.9841 -30000 1 serial  NA  NA       NaN       NaN   1.178709
+601    0.70 -733.6177 -30000 1 serial  NA  NA       NaN       NaN   1.184118
+602    0.70 -734.4675 -30000 1 serial  NA  NA       NaN       NaN   1.182748
+603    0.70 -752.6853 -30000 1 serial  NA  NA       NaN       NaN   1.154121
+604    0.70 -722.7817 -30000 1 serial  NA  NA       NaN       NaN   1.201870
+605    0.70 -718.5498 -30000 1 serial  NA  NA       NaN       NaN   1.208948
+606    0.70 -763.0475 -20000 1 serial  NA  NA       NaN       NaN   1.138448
+607    0.70 -742.4544 -30000 1 serial  NA  NA       NaN       NaN   1.170024
+608    0.70 -729.5963 -30000 1 serial  NA  NA       NaN       NaN   1.190644
+609    0.70 -757.8682 -30000 1 serial  NA  NA       NaN       NaN   1.146228
+610    0.70 -762.9835 -30000 1 serial  NA  NA       NaN       NaN   1.138543
+611    0.70 -729.7016 -20000 1 serial  NA  NA       NaN       NaN   1.190473
+612    0.70 -741.7328 -30000 1 serial  NA  NA       NaN       NaN   1.171163
+613    0.70 -732.9884 -30000 1 serial  NA  NA       NaN       NaN   1.185134
+614    0.70 -774.7176 -30000 1 serial  NA  NA       NaN       NaN   1.121299
+615    0.70 -742.4874 -30000 1 serial  NA  NA       NaN       NaN   1.169972
+616    0.70 -720.6429 -30000 1 serial  NA  NA       NaN       NaN   1.205437
+617    0.70 -735.2430 -30000 1 serial  NA  NA       NaN       NaN   1.181500
+618    0.70 -715.0668 -40000 1 serial  NA  NA       NaN       NaN   1.214837
+619    0.70 -715.0521 -30000 1 serial  NA  NA       NaN       NaN   1.214862
+620    0.70 -767.3262 -30000 1 serial  NA  NA       NaN       NaN   1.132100
+621    0.70 -734.7859 -30000 1 serial  NA  NA       NaN       NaN   1.182235
+622    0.70 -715.5500 -30000 1 serial  NA  NA       NaN       NaN   1.214017
+623    0.70 -750.1058 -30000 1 serial  NA  NA       NaN       NaN   1.158090
+624    0.70 -728.5926 -30000 1 serial  NA  NA       NaN       NaN   1.192285
+625    0.70 -780.4172 -30000 1 serial  NA  NA       NaN       NaN   1.113109
+626    0.70 -740.5770 -30000 1 serial  NA  NA       NaN       NaN   1.172990
+627    0.70 -780.8616 -30000 1 serial  NA  NA       NaN       NaN   1.112476
+628    0.70 -726.7729 -30000 1 serial  NA  NA       NaN       NaN   1.195270
+629    0.70 -761.6460 -30000 1 serial  NA  NA       NaN       NaN   1.140543
+630    0.70 -727.7765 -30000 1 serial  NA  NA       NaN       NaN   1.193621
+631    0.70 -716.0576 -30000 1 serial  NA  NA       NaN       NaN   1.213156
+632    0.70 -746.1382 -30000 1 serial  NA  NA       NaN       NaN   1.164248
+633    0.70 -747.7003 -30000 1 serial  NA  NA       NaN       NaN   1.161815
+634    0.70 -754.3875 -30000 1 serial  NA  NA       NaN       NaN   1.151517
+635    0.70 -758.3965 -30000 1 serial  NA  NA       NaN       NaN   1.145429
+636    0.70 -718.2816 -30000 1 serial  NA  NA       NaN       NaN   1.209400
+637    0.70 -718.1375 -30000 1 serial  NA  NA       NaN       NaN   1.209643
+638    0.70 -758.6393 -30000 1 serial  NA  NA       NaN       NaN   1.145063
+639    0.70 -766.9184 -30000 1 serial  NA  NA       NaN       NaN   1.132702
+640    0.70 -740.3599 -30000 1 serial  NA  NA       NaN       NaN   1.173334
+641    0.70 -779.4723 -20000 1 serial  NA  NA       NaN       NaN   1.114459
+642    0.70 -711.7782 -30000 1 serial  NA  NA       NaN       NaN   1.220450
+643    0.70 -755.7170 -30000 1 serial  NA  NA       NaN       NaN   1.149491
+644    0.70 -768.2454 -40000 1 serial  NA  NA       NaN       NaN   1.130745
+645    0.70 -729.8134 -30000 1 serial  NA  NA       NaN       NaN   1.190290
+646    0.70 -714.5487 -20000 1 serial  NA  NA       NaN       NaN   1.215718
+647    0.70 -759.8212 -10000 1 serial  NA  NA       NaN       NaN   1.143282
+648    0.70 -728.2402 -30000 1 serial  NA  NA       NaN       NaN   1.192861
+649    0.70 -740.2082 -30000 1 serial  NA  NA       NaN       NaN   1.173575
+650    0.70 -785.3704 -30000 1 serial  NA  NA       NaN       NaN   1.106089
+651    0.70 -767.0003 -30000 1 serial  NA  NA       NaN       NaN   1.132581
+652    0.70 -746.3184 -20000 1 serial  NA  NA       NaN       NaN   1.163967
+653    0.70 -749.4006 -30000 1 serial  NA  NA       NaN       NaN   1.159179
+654    0.70 -743.0548 -30000 1 serial  NA  NA       NaN       NaN   1.169079
+655    0.70 -726.4442 -30000 1 serial  NA  NA       NaN       NaN   1.195811
+656    0.70 -745.3778 -30000 1 serial  NA  NA       NaN       NaN   1.165435
+657    0.70 -727.2692 -20000 1 serial  NA  NA       NaN       NaN   1.194454
+658    0.70 -756.8698 -20000 1 serial  NA  NA       NaN       NaN   1.147740
+659    0.70 -747.7634 -30000 1 serial  NA  NA       NaN       NaN   1.161717
+660    0.70 -754.0194 -30000 1 serial  NA  NA       NaN       NaN   1.152079
+661    0.70 -750.9661 -30000 1 serial  NA  NA       NaN       NaN   1.156763
+662    0.70 -737.6155 -30000 1 serial  NA  NA       NaN       NaN   1.177700
+663    0.70 -774.0549 -30000 1 serial  NA  NA       NaN       NaN   1.122259
+664    0.70 -738.6755 -30000 1 serial  NA  NA       NaN       NaN   1.176010
+665    0.70 -731.1745 -20000 1 serial  NA  NA       NaN       NaN   1.188074
+666    0.70 -774.0039 -30000 1 serial  NA  NA       NaN       NaN   1.122332
+667    0.70 -738.3262 -30000 1 serial  NA  NA       NaN       NaN   1.176566
+668    0.70 -713.4843 -30000 1 serial  NA  NA       NaN       NaN   1.217532
+669    0.70 -737.4552 -30000 1 serial  NA  NA       NaN       NaN   1.177956
+670    0.70 -758.1123 -30000 1 serial  NA  NA       NaN       NaN   1.145859
+671    0.70 -758.8194 -30000 1 serial  NA  NA       NaN       NaN   1.144791
+672    0.70 -712.2278 -30000 1 serial  NA  NA       NaN       NaN   1.219680
+673    0.70 -746.6380 -30000 1 serial  NA  NA       NaN       NaN   1.163468
+674    0.70 -758.9734 -30000 1 serial  NA  NA       NaN       NaN   1.144559
+675    0.70 -718.3069 -30000 1 serial  NA  NA       NaN       NaN   1.209357
+676    0.70 -718.1095 -30000 1 serial  NA  NA       NaN       NaN   1.209690
+677    0.70 -725.5263 -30000 1 serial  NA  NA       NaN       NaN   1.197323
+678    0.70 -738.8920 -30000 1 serial  NA  NA       NaN       NaN   1.175665
+679    0.70 -748.0615 -30000 1 serial  NA  NA       NaN       NaN   1.161254
+680    0.70 -727.3738 -30000 1 serial  NA  NA       NaN       NaN   1.194282
+681    0.70 -749.1962 -20000 1 serial  NA  NA       NaN       NaN   1.159496
+682    0.70 -750.2151 -30000 1 serial  NA  NA       NaN       NaN   1.157921
+683    0.70 -743.8073 -30000 1 serial  NA  NA       NaN       NaN   1.167896
+684    0.70 -728.5957 -30000 1 serial  NA  NA       NaN       NaN   1.192280
+685    0.70 -755.2857 -30000 1 serial  NA  NA       NaN       NaN   1.150147
+686    0.70 -742.2934 -30000 1 serial  NA  NA       NaN       NaN   1.170278
+687    0.70 -741.4029 -30000 1 serial  NA  NA       NaN       NaN   1.171684
+688    0.70 -761.8809 -30000 1 serial  NA  NA       NaN       NaN   1.140191
+689    0.70 -753.1953 -30000 1 serial  NA  NA       NaN       NaN   1.153339
+690    0.70 -713.2426 -30000 1 serial  NA  NA       NaN       NaN   1.217944
+691    0.70 -758.5539 -30000 1 serial  NA  NA       NaN       NaN   1.145192
+692    0.70 -705.5807 -30000 1 serial  NA  NA       NaN       NaN   1.231170
+693    0.70 -760.1355 -30000 1 serial  NA  NA       NaN       NaN   1.142809
+694    0.70 -766.9759 -30000 1 serial  NA  NA       NaN       NaN   1.132617
+695    0.70 -747.4030 -30000 1 serial  NA  NA       NaN       NaN   1.162277
+696    0.70 -720.0312 -30000 1 serial  NA  NA       NaN       NaN   1.206461
+697    0.70 -759.0238 -30000 1 serial  NA  NA       NaN       NaN   1.144483
+698    0.70 -733.7539 -30000 1 serial  NA  NA       NaN       NaN   1.183898
+699    0.70 -731.2560 -30000 1 serial  NA  NA       NaN       NaN   1.187942
+700    0.70 -757.7609 -40000 1 serial  NA  NA       NaN       NaN   1.146390
+701    0.80 -750.8353 -30000 1 serial  NA  NA       NaN       NaN   1.156964
+702    0.80 -759.5276 -30000 1 serial  NA  NA       NaN       NaN   1.143724
+703    0.80 -759.4799 -20000 1 serial  NA  NA       NaN       NaN   1.143796
+704    0.80 -756.0741 -30000 1 serial  NA  NA       NaN       NaN   1.148948
+705    0.80 -716.7439 -40000 1 serial  NA  NA       NaN       NaN   1.211995
+706    0.80 -739.1864 -30000 1 serial  NA  NA       NaN       NaN   1.175197
+707    0.80 -761.5726 -20000 1 serial  NA  NA       NaN       NaN   1.140652
+708    0.80 -741.4221 -20000 1 serial  NA  NA       NaN       NaN   1.171653
+709    0.80 -751.1452 -10000 1 serial  NA  NA       NaN       NaN   1.156487
+710    0.80 -743.4042 -30000 1 serial  NA  NA       NaN       NaN   1.168529
+711    0.80 -746.2922 -30000 1 serial  NA  NA       NaN       NaN   1.164007
+712    0.80 -752.0971 -30000 1 serial  NA  NA       NaN       NaN   1.155023
+713    0.80 -720.5822 -30000 1 serial  NA  NA       NaN       NaN   1.205539
+714    0.80 -760.2717 -30000 1 serial  NA  NA       NaN       NaN   1.142604
+715    0.80 -766.4132 -30000 1 serial  NA  NA       NaN       NaN   1.133448
+716    0.80 -739.9036      0 1 serial  NA  NA      -Inf      -Inf   1.174058
+717    0.80 -735.1055 -20000 1 serial  NA  NA       NaN       NaN   1.181721
+718    0.80 -785.5858 -30000 1 serial  NA  NA       NaN       NaN   1.105786
+719    0.80 -746.2725 -30000 1 serial  NA  NA       NaN       NaN   1.164038
+720    0.80 -777.2340 -30000 1 serial  NA  NA       NaN       NaN   1.117668
+721    0.80 -753.0026 -30000 1 serial  NA  NA       NaN       NaN   1.153634
+722    0.80 -750.4336 -30000 1 serial  NA  NA       NaN       NaN   1.157584
+723    0.80 -716.1582 -30000 1 serial  NA  NA       NaN       NaN   1.212986
+724    0.80 -749.6429 -30000 1 serial  NA  NA       NaN       NaN   1.158805
+725    0.80 -774.4350 -30000 1 serial  NA  NA       NaN       NaN   1.121708
+726    0.80 -737.1928 -30000 1 serial  NA  NA       NaN       NaN   1.178375
+727    0.80 -739.4159 -30000 1 serial  NA  NA       NaN       NaN   1.174832
+728    0.80 -721.9082 -30000 1 serial  NA  NA       NaN       NaN   1.203324
+729    0.80 -738.2358 -30000 1 serial  NA  NA       NaN       NaN   1.176710
+730    0.80 -723.2529 -30000 1 serial  NA  NA       NaN       NaN   1.201087
+731    0.80 -754.4186 -30000 1 serial  NA  NA       NaN       NaN   1.151469
+732    0.80 -750.2774 -30000 1 serial  NA  NA       NaN       NaN   1.157825
+733    0.80 -775.9257 -30000 1 serial  NA  NA       NaN       NaN   1.119553
+734    0.80 -756.0667 -30000 1 serial  NA  NA       NaN       NaN   1.148959
+735    0.80 -735.5182 -30000 1 serial  NA  NA       NaN       NaN   1.181058
+736    0.80 -750.7276 -30000 1 serial  NA  NA       NaN       NaN   1.157130
+737    0.80 -733.6144 -30000 1 serial  NA  NA       NaN       NaN   1.184123
+738    0.80 -760.0865 -20000 1 serial  NA  NA       NaN       NaN   1.142883
+739    0.80 -773.0096 -10000 1 serial  NA  NA       NaN       NaN   1.123776
+740    0.80 -740.1276 -30000 1 serial  NA  NA       NaN       NaN   1.173703
+741    0.80 -754.0203 -30000 1 serial  NA  NA       NaN       NaN   1.152077
+742    0.80 -684.1758 -30000 1 serial  NA  NA       NaN       NaN   1.269688
+743    0.80 -708.7426 -20000 1 serial  NA  NA       NaN       NaN   1.225677
+744    0.80 -747.1875 -30000 1 serial  NA  NA       NaN       NaN   1.162613
+745    0.80 -709.6382 -30000 1 serial  NA  NA       NaN       NaN   1.224130
+746    0.80 -758.7986 -20000 1 serial  NA  NA       NaN       NaN   1.144822
+747    0.80 -753.8960 -30000 1 serial  NA  NA       NaN       NaN   1.152267
+748    0.80 -705.5318 -20000 1 serial  NA  NA       NaN       NaN   1.231255
+749    0.80 -738.3003 -30000 1 serial  NA  NA       NaN       NaN   1.176608
+750    0.80 -726.3155 -30000 1 serial  NA  NA       NaN       NaN   1.196023
+751    0.80 -712.9873 -30000 1 serial  NA  NA       NaN       NaN   1.218380
+752    0.80 -742.2807 -30000 1 serial  NA  NA       NaN       NaN   1.170298
+753    0.80 -765.7751 -30000 1 serial  NA  NA       NaN       NaN   1.134393
+754    0.80 -708.0501 -30000 1 serial  NA  NA       NaN       NaN   1.226876
+755    0.80 -736.8372 -20000 1 serial  NA  NA       NaN       NaN   1.178944
+756    0.80 -731.7411 -30000 1 serial  NA  NA       NaN       NaN   1.187154
+757    0.80 -744.0947 -30000 1 serial  NA  NA       NaN       NaN   1.167445
+758    0.80 -733.4521 -30000 1 serial  NA  NA       NaN       NaN   1.184385
+759    0.80 -711.4470 -20000 1 serial  NA  NA       NaN       NaN   1.221018
+760    0.80 -771.4140 -30000 1 serial  NA  NA       NaN       NaN   1.126101
+761    0.80 -745.6074 -20000 1 serial  NA  NA       NaN       NaN   1.165077
+762    0.80 -725.1300 -30000 1 serial  NA  NA       NaN       NaN   1.197978
+763    0.80 -739.5886 -30000 1 serial  NA  NA       NaN       NaN   1.174558
+764    0.80 -730.4782 -20000 1 serial  NA  NA       NaN       NaN   1.189207
+765    0.80 -746.8324 -30000 1 serial  NA  NA       NaN       NaN   1.163165
+766    0.80 -761.0653 -30000 1 serial  NA  NA       NaN       NaN   1.141413
+767    0.80 -740.3199 -30000 1 serial  NA  NA       NaN       NaN   1.173398
+768    0.80 -745.3914 -30000 1 serial  NA  NA       NaN       NaN   1.165414
+769    0.80 -739.0529 -30000 1 serial  NA  NA       NaN       NaN   1.175409
+770    0.80 -749.8763 -20000 1 serial  NA  NA       NaN       NaN   1.158444
+771    0.80 -751.6615 -30000 1 serial  NA  NA       NaN       NaN   1.155693
+772    0.80 -723.3038 -30000 1 serial  NA  NA       NaN       NaN   1.201003
+773    0.80 -743.0861 -30000 1 serial  NA  NA       NaN       NaN   1.169030
+774    0.80 -747.1386 -10000 1 serial  NA  NA       NaN       NaN   1.162689
+775    0.80 -765.8090 -20000 1 serial  NA  NA       NaN       NaN   1.134343
+776    0.80 -773.0939 -30000 1 serial  NA  NA       NaN       NaN   1.123654
+777    0.80 -766.0672 -30000 1 serial  NA  NA       NaN       NaN   1.133960
+778    0.80 -738.0782 -20000 1 serial  NA  NA       NaN       NaN   1.176962
+779    0.80 -722.9964 -30000 1 serial  NA  NA       NaN       NaN   1.201513
+780    0.80 -735.2996 -30000 1 serial  NA  NA       NaN       NaN   1.181409
+781    0.80 -750.5998 -30000 1 serial  NA  NA       NaN       NaN   1.157327
+782    0.80 -778.1999 -30000 1 serial  NA  NA       NaN       NaN   1.116281
+783    0.80 -765.7254 -30000 1 serial  NA  NA       NaN       NaN   1.134466
+784    0.80 -775.0862 -30000 1 serial  NA  NA       NaN       NaN   1.120765
+785    0.80 -732.3080 -30000 1 serial  NA  NA       NaN       NaN   1.186236
+786    0.80 -747.5844 -30000 1 serial  NA  NA       NaN       NaN   1.161996
+787    0.80 -745.6210 -30000 1 serial  NA  NA       NaN       NaN   1.165055
+788    0.80 -743.3851 -20000 1 serial  NA  NA       NaN       NaN   1.168560
+789    0.80 -746.9898 -20000 1 serial  NA  NA       NaN       NaN   1.162920
+790    0.80 -743.6541 -20000 1 serial  NA  NA       NaN       NaN   1.168137
+791    0.80 -721.3911 -30000 1 serial  NA  NA       NaN       NaN   1.204187
+792    0.80 -724.5251 -20000 1 serial  NA  NA       NaN       NaN   1.198978
+793    0.80 -755.2574 -20000 1 serial  NA  NA       NaN       NaN   1.150190
+794    0.80 -733.0274 -20000 1 serial  NA  NA       NaN       NaN   1.185071
+795    0.80 -750.3880 -30000 1 serial  NA  NA       NaN       NaN   1.157654
+796    0.80 -727.0783 -30000 1 serial  NA  NA       NaN       NaN   1.194768
+797    0.80 -736.9914 -20000 1 serial  NA  NA       NaN       NaN   1.178697
+798    0.80 -781.8372 -30000 1 serial  NA  NA       NaN       NaN   1.111088
+799    0.80 -748.7683 -30000 1 serial  NA  NA       NaN       NaN   1.160158
+800    0.80 -740.3374 -30000 1 serial  NA  NA       NaN       NaN   1.173370
+801    0.90 -720.7699 -30000 1 serial  NA  NA       NaN       NaN   1.205225
+802    0.90 -739.6298 -30000 1 serial  NA  NA       NaN       NaN   1.174493
+803    0.90 -729.2566 -30000 1 serial  NA  NA       NaN       NaN   1.191199
+804    0.90 -736.6303 -30000 1 serial  NA  NA       NaN       NaN   1.179275
+805    0.90 -780.1821 -30000 1 serial  NA  NA       NaN       NaN   1.113445
+806    0.90 -735.4866 -30000 1 serial  NA  NA       NaN       NaN   1.181109
+807    0.90 -727.8831 -30000 1 serial  NA  NA       NaN       NaN   1.193447
+808    0.90 -754.5982 -30000 1 serial  NA  NA       NaN       NaN   1.151195
+809    0.90 -746.6541 -30000 1 serial  NA  NA       NaN       NaN   1.163443
+810    0.90 -759.0693 -30000 1 serial  NA  NA       NaN       NaN   1.144414
+811    0.90 -727.6103 -20000 1 serial  NA  NA       NaN       NaN   1.193894
+812    0.90 -747.0213 -20000 1 serial  NA  NA       NaN       NaN   1.162871
+813    0.90 -729.8861 -30000 1 serial  NA  NA       NaN       NaN   1.190172
+814    0.90 -759.2180 -30000 1 serial  NA  NA       NaN       NaN   1.144190
+815    0.90 -741.5719 -30000 1 serial  NA  NA       NaN       NaN   1.171417
+816    0.90 -743.5821 -30000 1 serial  NA  NA       NaN       NaN   1.168250
+817    0.90 -738.0278 -30000 1 serial  NA  NA       NaN       NaN   1.177042
+818    0.90 -734.8847 -20000 1 serial  NA  NA       NaN       NaN   1.182076
+819    0.90 -762.4159 -20000 1 serial  NA  NA       NaN       NaN   1.139391
+820    0.90 -766.0366 -30000 1 serial  NA  NA       NaN       NaN   1.134005
+821    0.90 -759.9320 -30000 1 serial  NA  NA       NaN       NaN   1.143115
+822    0.90 -760.7616 -30000 1 serial  NA  NA       NaN       NaN   1.141868
+823    0.90 -735.9454 -30000 1 serial  NA  NA       NaN       NaN   1.180373
+824    0.90 -751.8947 -30000 1 serial  NA  NA       NaN       NaN   1.155334
+825    0.90 -729.7540 -30000 1 serial  NA  NA       NaN       NaN   1.190387
+826    0.90 -742.8011 -30000 1 serial  NA  NA       NaN       NaN   1.169478
+827    0.90 -740.9478 -20000 1 serial  NA  NA       NaN       NaN   1.172403
+828    0.90 -748.2106 -30000 1 serial  NA  NA       NaN       NaN   1.161023
+829    0.90 -740.6798 -30000 1 serial  NA  NA       NaN       NaN   1.172828
+830    0.90 -740.1262 -20000 1 serial  NA  NA       NaN       NaN   1.173705
+831    0.90 -750.1843 -30000 1 serial  NA  NA       NaN       NaN   1.157968
+832    0.90 -732.8376 -20000 1 serial  NA  NA       NaN       NaN   1.185378
+833    0.90 -747.2478 -20000 1 serial  NA  NA       NaN       NaN   1.162519
+834    0.90 -733.8018 -30000 1 serial  NA  NA       NaN       NaN   1.183821
+835    0.90 -732.6673 -30000 1 serial  NA  NA       NaN       NaN   1.185654
+836    0.90 -731.9302 -30000 1 serial  NA  NA       NaN       NaN   1.186848
+837    0.90 -768.8426 -20000 1 serial  NA  NA       NaN       NaN   1.129867
+838    0.90 -729.5659 -30000 1 serial  NA  NA       NaN       NaN   1.190694
+839    0.90 -751.5166 -30000 1 serial  NA  NA       NaN       NaN   1.155915
+840    0.90 -740.1295 -30000 1 serial  NA  NA       NaN       NaN   1.173700
+841    0.90 -739.6766 -30000 1 serial  NA  NA       NaN       NaN   1.174418
+842    0.90 -781.8433 -30000 1 serial  NA  NA       NaN       NaN   1.111079
+843    0.90 -752.4443 -30000 1 serial  NA  NA       NaN       NaN   1.154490
+844    0.90 -769.8149 -30000 1 serial  NA  NA       NaN       NaN   1.128440
+845    0.90 -738.0808 -30000 1 serial  NA  NA       NaN       NaN   1.176957
+846    0.90 -756.2481 -30000 1 serial  NA  NA       NaN       NaN   1.148684
+847    0.90 -742.9316 -30000 1 serial  NA  NA       NaN       NaN   1.169273
+848    0.90 -735.6187 -30000 1 serial  NA  NA       NaN       NaN   1.180897
+849    0.90 -752.1536 -30000 1 serial  NA  NA       NaN       NaN   1.154937
+850    0.90 -758.9607 -30000 1 serial  NA  NA       NaN       NaN   1.144578
+851    0.90 -714.1680 -30000 1 serial  NA  NA       NaN       NaN   1.216366
+852    0.90 -724.0948 -30000 1 serial  NA  NA       NaN       NaN   1.199691
+853    0.90 -755.3983 -30000 1 serial  NA  NA       NaN       NaN   1.149976
+854    0.90 -729.6659 -20000 1 serial  NA  NA       NaN       NaN   1.190531
+855    0.90 -748.9222 -10000 1 serial  NA  NA       NaN       NaN   1.159920
+856    0.90 -717.7840 -30000 1 serial  NA  NA       NaN       NaN   1.210238
+857    0.90 -764.4326 -30000 1 serial  NA  NA       NaN       NaN   1.136385
+858    0.90 -739.7553 -30000 1 serial  NA  NA       NaN       NaN   1.174293
+859    0.90 -742.9548 -30000 1 serial  NA  NA       NaN       NaN   1.169236
+860    0.90 -752.4245 -30000 1 serial  NA  NA       NaN       NaN   1.154521
+861    0.90 -758.8353 -20000 1 serial  NA  NA       NaN       NaN   1.144767
+862    0.90 -733.3964 -20000 1 serial  NA  NA       NaN       NaN   1.184475
+863    0.90 -777.9824 -30000 1 serial  NA  NA       NaN       NaN   1.116593
+864    0.90 -735.4679 -40000 1 serial  NA  NA       NaN       NaN   1.181139
+865    0.90 -734.1171 -30000 1 serial  NA  NA       NaN       NaN   1.183312
+866    0.90 -763.5354 -20000 1 serial  NA  NA       NaN       NaN   1.137720
+867    0.90 -741.9623 -20000 1 serial  NA  NA       NaN       NaN   1.170800
+868    0.90 -742.1729 -20000 1 serial  NA  NA       NaN       NaN   1.170468
+869    0.90 -749.8960 -30000 1 serial  NA  NA       NaN       NaN   1.158414
+870    0.90 -769.8178 -10000 1 serial  NA  NA       NaN       NaN   1.128435
+871    0.90 -726.2554 -30000 1 serial  NA  NA       NaN       NaN   1.196121
+872    0.90 -748.5468 -30000 1 serial  NA  NA       NaN       NaN   1.160502
+873    0.90 -747.6673 -30000 1 serial  NA  NA       NaN       NaN   1.161867
+874    0.90 -745.2926 -30000 1 serial  NA  NA       NaN       NaN   1.165569
+875    0.90 -782.4768 -20000 1 serial  NA  NA       NaN       NaN   1.110179
+876    0.90 -727.0226 -30000 1 serial  NA  NA       NaN       NaN   1.194859
+877    0.90 -725.3219 -30000 1 serial  NA  NA       NaN       NaN   1.197661
+878    0.90 -750.3259 -30000 1 serial  NA  NA       NaN       NaN   1.157750
+879    0.90 -731.5796 -30000 1 serial  NA  NA       NaN       NaN   1.187417
+880    0.90 -766.5259 -30000 1 serial  NA  NA       NaN       NaN   1.133282
+881    0.90 -733.9178 -30000 1 serial  NA  NA       NaN       NaN   1.183634
+882    0.90 -746.7031 -30000 1 serial  NA  NA       NaN       NaN   1.163367
+883    0.90 -743.5176 -20000 1 serial  NA  NA       NaN       NaN   1.168351
+884    0.90 -729.9989 -30000 1 serial  NA  NA       NaN       NaN   1.189988
+885    0.90 -752.1124 -30000 1 serial  NA  NA       NaN       NaN   1.155000
+886    0.90 -757.0681 -20000 1 serial  NA  NA       NaN       NaN   1.147439
+887    0.90 -732.6905 -30000 1 serial  NA  NA       NaN       NaN   1.185616
+888    0.90 -760.7855 -30000 1 serial  NA  NA       NaN       NaN   1.141833
+889    0.90 -705.1186 -30000 1 serial  NA  NA       NaN       NaN   1.231977
+890    0.90 -757.3673 -30000 1 serial  NA  NA       NaN       NaN   1.146986
+891    0.90 -736.7933 -30000 1 serial  NA  NA       NaN       NaN   1.179014
+892    0.90 -718.0231 -30000 1 serial  NA  NA       NaN       NaN   1.209835
+893    0.90 -769.9621 -30000 1 serial  NA  NA       NaN       NaN   1.128224
+894    0.90 -739.4085 -30000 1 serial  NA  NA       NaN       NaN   1.174844
+895    0.90 -757.2541 -30000 1 serial  NA  NA       NaN       NaN   1.147157
+896    0.90 -743.5113 -30000 1 serial  NA  NA       NaN       NaN   1.168361
+897    0.90 -747.1868 -30000 1 serial  NA  NA       NaN       NaN   1.162614
+898    0.90 -751.7168 -30000 1 serial  NA  NA       NaN       NaN   1.155608
+899    0.90 -740.2981 -20000 1 serial  NA  NA       NaN       NaN   1.173432
+900    0.90 -732.1175 -30000 1 serial  NA  NA       NaN       NaN   1.186544
+901    0.09 -803.8562 -30000 1 serial  NA  NA       NaN       NaN   1.080653
+902    0.09 -775.0496  10000 1 serial  NA  NA  9.210340  9.210340   1.120818
+903    0.09 -786.4623  10000 1 serial  NA  NA  9.210340  9.210340   1.104554
+904    0.09 -811.3665      0 1 serial  NA  NA      -Inf      -Inf   1.070650
+905    0.09 -793.8829      0 1 serial  NA  NA      -Inf      -Inf   1.094229
+906    0.09 -798.3288  10000 1 serial  NA  NA  9.210340  9.210340   1.088135
+907    0.09 -756.9028 -30000 1 serial  NA  NA       NaN       NaN   1.147690
+908    0.09 -799.9102  10000 1 serial  NA  NA  9.210340  9.210340   1.085984
+909    0.09 -774.0777 -30000 1 serial  NA  NA       NaN       NaN   1.122225
+910    0.09 -787.3247  10000 1 serial  NA  NA  9.210340  9.210340   1.103344
+911    0.09 -800.7367      0 1 serial  NA  NA      -Inf      -Inf   1.084863
+912    0.09 -828.6423  20000 1 serial  NA  NA  9.903488  9.903488   1.048329
+913    0.09 -790.5114  10000 1 serial  NA  NA  9.210340  9.210340   1.098896
+914    0.09 -804.6845      0 1 serial  NA  NA      -Inf      -Inf   1.079541
+915    0.09 -780.5212  10000 1 serial  NA  NA  9.210340  9.210340   1.112961
+916    0.09 -771.1956 -10000 1 serial  NA  NA       NaN       NaN   1.126419
+917    0.09 -817.1200  20000 1 serial  NA  NA  9.903488  9.903488   1.063112
+918    0.09 -769.4822  10000 1 serial  NA  NA  9.210340  9.210340   1.128928
+919    0.09 -745.8444 -20000 1 serial  NA  NA       NaN       NaN   1.164706
+920    0.09 -823.7399  10000 1 serial  NA  NA  9.210340  9.210340   1.054568
+921    0.09 -799.0125  30000 1 serial  NA  NA 10.308953 10.308953   1.087204
+922    0.09 -796.9196      0 1 serial  NA  NA      -Inf      -Inf   1.090059
+923    0.09 -796.0011      0 1 serial  NA  NA      -Inf      -Inf   1.091317
+924    0.09 -798.0442  30000 1 serial  NA  NA 10.308953 10.308953   1.088523
+925    0.09 -784.9102 -20000 1 serial  NA  NA       NaN       NaN   1.106738
+926    0.09 -737.6962 -30000 1 serial  NA  NA       NaN       NaN   1.177571
+927    0.09 -815.8809  20000 1 serial  NA  NA  9.903488  9.903488   1.064726
+928    0.09 -771.2367 -20000 1 serial  NA  NA       NaN       NaN   1.126359
+929    0.09 -790.0949      0 1 serial  NA  NA      -Inf      -Inf   1.099475
+930    0.09 -815.3737  10000 1 serial  NA  NA  9.210340  9.210340   1.065388
+931    0.09 -794.4061  10000 1 serial  NA  NA  9.210340  9.210340   1.093508
+932    0.09 -792.8231  20000 1 serial  NA  NA  9.903488  9.903488   1.095692
+933    0.09 -805.1098  10000 1 serial  NA  NA  9.210340  9.210340   1.078971
+934    0.09 -786.5465  10000 1 serial  NA  NA  9.210340  9.210340   1.104435
+935    0.09 -764.6559      0 1 serial  NA  NA      -Inf      -Inf   1.136053
+936    0.09 -744.8770 -30000 1 serial  NA  NA       NaN       NaN   1.166219
+937    0.09 -801.3321  20000 1 serial  NA  NA  9.903488  9.903488   1.084057
+938    0.09 -790.6539  10000 1 serial  NA  NA  9.210340  9.210340   1.098698
+939    0.09 -815.1246  10000 1 serial  NA  NA  9.210340  9.210340   1.065714
+940    0.09 -805.9243      0 1 serial  NA  NA      -Inf      -Inf   1.077880
+941    0.09 -799.6201 -10000 1 serial  NA  NA       NaN       NaN   1.086378
+942    0.09 -784.4943  10000 1 serial  NA  NA  9.210340  9.210340   1.107324
+943    0.09 -770.1273 -10000 1 serial  NA  NA       NaN       NaN   1.127982
+944    0.09 -779.8360 -10000 1 serial  NA  NA       NaN       NaN   1.113939
+945    0.09 -790.8720 -10000 1 serial  NA  NA       NaN       NaN   1.098395
+946    0.09 -790.6397  10000 1 serial  NA  NA  9.210340  9.210340   1.098718
+947    0.09 -799.8483  10000 1 serial  NA  NA  9.210340  9.210340   1.086068
+948    0.09 -759.0824  30000 1 serial  NA  NA 10.308953 10.308953   1.144394
+949    0.09 -796.0915  10000 1 serial  NA  NA  9.210340  9.210340   1.091193
+950    0.09 -787.1643      0 1 serial  NA  NA      -Inf      -Inf   1.103569
+951    0.09 -750.2261 -30000 1 serial  NA  NA       NaN       NaN   1.157904
+952    0.09 -816.5055  10000 1 serial  NA  NA  9.210340  9.210340   1.063912
+953    0.09 -749.0008 -30000 1 serial  NA  NA       NaN       NaN   1.159798
+954    0.09 -755.3781 -30000 1 serial  NA  NA       NaN       NaN   1.150006
+955    0.09 -778.8007 -20000 1 serial  NA  NA       NaN       NaN   1.115420
+956    0.09 -790.1417  10000 1 serial  NA  NA  9.210340  9.210340   1.099410
+957    0.09 -800.4877  20000 1 serial  NA  NA  9.903488  9.903488   1.085201
+958    0.09 -720.8243 -30000 1 serial  NA  NA       NaN       NaN   1.205134
+959    0.09 -739.7629      0 1 serial  NA  NA      -Inf      -Inf   1.174281
+960    0.09 -793.7974  20000 1 serial  NA  NA  9.903488  9.903488   1.094347
+961    0.09 -793.4337  10000 1 serial  NA  NA  9.210340  9.210340   1.094849
+962    0.09 -765.4947      0 1 serial  NA  NA      -Inf      -Inf   1.134808
+963    0.09 -708.9836 -30000 1 serial  NA  NA       NaN       NaN   1.225261
+964    0.09 -742.2656 -30000 1 serial  NA  NA       NaN       NaN   1.170322
+965    0.09 -812.9153  10000 1 serial  NA  NA  9.210340  9.210340   1.068610
+966    0.09 -765.4865      0 1 serial  NA  NA      -Inf      -Inf   1.134820
+967    0.09 -805.0572      0 1 serial  NA  NA      -Inf      -Inf   1.079041
+968    0.09 -764.6605 -20000 1 serial  NA  NA       NaN       NaN   1.136046
+969    0.09 -797.3270  30000 1 serial  NA  NA 10.308953 10.308953   1.089502
+970    0.09 -725.5592 -30000 1 serial  NA  NA       NaN       NaN   1.197269
+971    0.09 -783.8379      0 1 serial  NA  NA      -Inf      -Inf   1.108252
+972    0.09 -791.1683  20000 1 serial  NA  NA  9.903488  9.903488   1.097983
+973    0.09 -772.3099  10000 1 serial  NA  NA  9.210340  9.210340   1.124794
+974    0.09 -756.1714 -20000 1 serial  NA  NA       NaN       NaN   1.148800
+975    0.09 -782.4432  10000 1 serial  NA  NA  9.210340  9.210340   1.110227
+976    0.09 -799.4711      0 1 serial  NA  NA      -Inf      -Inf   1.086580
+977    0.09 -767.9859 -10000 1 serial  NA  NA       NaN       NaN   1.131127
+978    0.09 -797.3258  10000 1 serial  NA  NA  9.210340  9.210340   1.089504
+979    0.09 -734.2918 -30000 1 serial  NA  NA       NaN       NaN   1.183031
+980    0.09 -736.9194 -30000 1 serial  NA  NA       NaN       NaN   1.178812
+981    0.09 -799.7966  10000 1 serial  NA  NA  9.210340  9.210340   1.086138
+982    0.09 -768.7248 -20000 1 serial  NA  NA       NaN       NaN   1.130040
+983    0.09 -770.2618  10000 1 serial  NA  NA  9.210340  9.210340   1.127785
+984    0.09 -754.0429      0 1 serial  NA  NA      -Inf      -Inf   1.152043
+985    0.09 -806.0231  10000 1 serial  NA  NA  9.210340  9.210340   1.077748
+986    0.09 -816.1435  20000 1 serial  NA  NA  9.903488  9.903488   1.064383
+987    0.09 -825.2288      0 1 serial  NA  NA      -Inf      -Inf   1.052665
+988    0.09 -806.6983  10000 1 serial  NA  NA  9.210340  9.210340   1.076846
+989    0.09 -794.3796  10000 1 serial  NA  NA  9.210340  9.210340   1.093545
+990    0.09 -776.5535 -20000 1 serial  NA  NA       NaN       NaN   1.118648
+991    0.09 -745.8322      0 1 serial  NA  NA      -Inf      -Inf   1.164725
+992    0.09 -801.0133  10000 1 serial  NA  NA  9.210340  9.210340   1.084489
+993    0.09 -762.6731  10000 1 serial  NA  NA  9.210340  9.210340   1.139007
+994    0.09 -804.4493  10000 1 serial  NA  NA  9.210340  9.210340   1.079856
+995    0.09 -802.0950  20000 1 serial  NA  NA  9.903488  9.903488   1.083026
+996    0.09 -759.7089      0 1 serial  NA  NA      -Inf      -Inf   1.143451
+997    0.09 -785.8688      0 1 serial  NA  NA      -Inf      -Inf   1.105388
+998    0.09 -788.9313  10000 1 serial  NA  NA  9.210340  9.210340   1.101097
+999    0.09 -736.0765 -20000 1 serial  NA  NA       NaN       NaN   1.180162
+1000   0.09 -753.1573 -10000 1 serial  NA  NA       NaN       NaN   1.153397
+     energy_bin work_bin
+1             9       93
+2            19      NaN
+3            16     -Inf
+4            17      NaN
+5            20      NaN
+6            13      NaN
+7            13     -Inf
+8             9      NaN
+9            16     -Inf
+10           10      100
+11           10     -Inf
+12           14      NaN
+13            8       93
+14           10      NaN
+15           12      NaN
+16           14     -Inf
+17           15      NaN
+18            8     -Inf
+19           13      100
+20           14     -Inf
+21           10       93
+22            9     -Inf
+23           11       93
+24           16      NaN
+25           11       93
+26           12      100
+27           12       93
+28           18      NaN
+29           11     -Inf
+30           18      NaN
+31           17      NaN
+32           11      104
+33           12     -Inf
+34            6       93
+35            9       93
+36           11     -Inf
+37           14       93
+38           11      104
+39           10     -Inf
+40            9     -Inf
+41            8       93
+42           17      NaN
+43           16      NaN
+44            9     -Inf
+45           11      NaN
+46           10      NaN
+47           14     -Inf
+48           13     -Inf
+49           10     -Inf
+50           10      100
+51           11     -Inf
+52           10      100
+53           11       93
+54           14      NaN
+55           19      NaN
+56            7      NaN
+57           15      NaN
+58           10      NaN
+59           14      NaN
+60           23      NaN
+61            8     -Inf
+62            8       93
+63            8      NaN
+64           12      NaN
+65            7     -Inf
+66           18      NaN
+67            8       93
+68           10     -Inf
+69           19      NaN
+70           13      104
+71            9     -Inf
+72           10      NaN
+73           17      NaN
+74           21      NaN
+75           16      NaN
+76           10      NaN
+77           12       93
+78           12      106
+79           24      NaN
+80           11      NaN
+81            9     -Inf
+82           12       93
+83           19      NaN
+84           10      100
+85           19      NaN
+86           11       93
+87           13     -Inf
+88           19      NaN
+89           11     -Inf
+90           16      NaN
+91           10       93
+92            6      100
+93            9     -Inf
+94           10     -Inf
+95           12     -Inf
+96           19      NaN
+97           19      NaN
+98           11      NaN
+99            7     -Inf
+100           8       93
+101          15      NaN
+102          18      NaN
+103          18      NaN
+104          18      NaN
+105          16      NaN
+106          15      NaN
+107          11     -Inf
+108          20      NaN
+109          17      NaN
+110          16      NaN
+111          16      NaN
+112          12      NaN
+113          20      NaN
+114          20      NaN
+115          15      NaN
+116          15      NaN
+117          19      NaN
+118          17      NaN
+119          18      NaN
+120          16      NaN
+121          16      NaN
+122          14     -Inf
+123          15      NaN
+124          13      NaN
+125          18      NaN
+126          17      NaN
+127          17      NaN
+128          20      NaN
+129          15      NaN
+130          13      NaN
+131          19      NaN
+132          19      NaN
+133          15      NaN
+134          22      NaN
+135          20      NaN
+136          18      NaN
+137          11      NaN
+138          14      NaN
+139          12      NaN
+140          16      NaN
+141          17      NaN
+142          17      NaN
+143          13      NaN
+144          13      NaN
+145          19      NaN
+146          14      NaN
+147          15      NaN
+148          20      NaN
+149          17      NaN
+150          21      NaN
+151          17      NaN
+152          17      NaN
+153          17      NaN
+154          23      NaN
+155          20      NaN
+156          13      NaN
+157          17      NaN
+158          17      NaN
+159          18      NaN
+160          13      NaN
+161          17      NaN
+162          14      NaN
+163          15      NaN
+164          13      NaN
+165          15      NaN
+166          19      NaN
+167          14      NaN
+168          17      NaN
+169          12      NaN
+170          17      NaN
+171          13      NaN
+172          14      NaN
+173          18      NaN
+174          16      NaN
+175          17      NaN
+176          18      NaN
+177          16      NaN
+178          20     -Inf
+179          14      NaN
+180          18      NaN
+181          20      NaN
+182          15      NaN
+183          15      NaN
+184          13      NaN
+185          18      NaN
+186          16      NaN
+187          18      NaN
+188          18      NaN
+189          14      NaN
+190          16      NaN
+191          18      NaN
+192          15      NaN
+193          17      NaN
+194          19      NaN
+195          17      NaN
+196          24      NaN
+197          17      NaN
+198          19      NaN
+199          21      NaN
+200          14      NaN
+201          16      NaN
+202          16      NaN
+203          16      NaN
+204          24      NaN
+205          16      NaN
+206          14      NaN
+207          18      NaN
+208          13      NaN
+209          18      NaN
+210          18      NaN
+211          21      NaN
+212          17      NaN
+213          21      NaN
+214          21      NaN
+215          22      NaN
+216          19      NaN
+217          13      NaN
+218          18      NaN
+219          18      NaN
+220          17      NaN
+221          22      NaN
+222          14      NaN
+223          20      NaN
+224          14      NaN
+225          18      NaN
+226          17      NaN
+227          14      NaN
+228          20      NaN
+229          17      NaN
+230          17      NaN
+231          20      NaN
+232          20      NaN
+233          16      NaN
+234          17      NaN
+235          21      NaN
+236          17      NaN
+237          16      NaN
+238          17      NaN
+239          15      NaN
+240          23      NaN
+241          12      NaN
+242          14      NaN
+243          14      NaN
+244          20      NaN
+245          23      NaN
+246          15      NaN
+247          15      NaN
+248          20      NaN
+249          17      NaN
+250          17      NaN
+251          16      NaN
+252          19      NaN
+253          20      NaN
+254          13      NaN
+255          22      NaN
+256          13      NaN
+257          15      NaN
+258          12      NaN
+259          18      NaN
+260          16      NaN
+261          21      NaN
+262          17      NaN
+263          23      NaN
+264          13      NaN
+265          16      NaN
+266          20      NaN
+267          16      NaN
+268          19      NaN
+269          12      NaN
+270          16      NaN
+271          16      NaN
+272          17      NaN
+273          20      NaN
+274          17      NaN
+275          17      NaN
+276          15      NaN
+277          15      NaN
+278          16      NaN
+279          15      NaN
+280          20      NaN
+281          16      NaN
+282          17      NaN
+283          14      NaN
+284          15      NaN
+285          15      NaN
+286          21      NaN
+287          15      NaN
+288          19      NaN
+289          18      NaN
+290          19      NaN
+291          13      NaN
+292          20      NaN
+293          16      NaN
+294          16      NaN
+295          15      NaN
+296          15      NaN
+297          13      NaN
+298          19      NaN
+299          10      NaN
+300          17      NaN
+301          16      NaN
+302          22      NaN
+303          13      NaN
+304          19      NaN
+305          13      NaN
+306          20      NaN
+307          16      NaN
+308          22      NaN
+309          13      NaN
+310          18      NaN
+311          15      NaN
+312          12      NaN
+313          20      NaN
+314          15      NaN
+315          16      NaN
+316          15      NaN
+317          18      NaN
+318          13      NaN
+319          17      NaN
+320          20      NaN
+321          12      NaN
+322          16      NaN
+323          18      NaN
+324          20      NaN
+325          22      NaN
+326          15      NaN
+327          16      NaN
+328          15      NaN
+329          16      NaN
+330          18      NaN
+331          17      NaN
+332          19      NaN
+333          20      NaN
+334          19      NaN
+335          20      NaN
+336          15      NaN
+337          17      NaN
+338          16      NaN
+339          15      NaN
+340          17      NaN
+341          17      NaN
+342          19      NaN
+343          11      NaN
+344          19      NaN
+345          21      NaN
+346          16      NaN
+347          17      NaN
+348          17      NaN
+349          18      NaN
+350          15      NaN
+351          17      NaN
+352          16      NaN
+353          17      NaN
+354          21      NaN
+355          17      NaN
+356          16      NaN
+357          18      NaN
+358          22      NaN
+359          20      NaN
+360          12      NaN
+361          10      NaN
+362          17      NaN
+363          13      NaN
+364          14      NaN
+365          14      NaN
+366          21      NaN
+367          20      NaN
+368          15      NaN
+369          14      NaN
+370          12      NaN
+371          16      NaN
+372          17      NaN
+373          19      NaN
+374          22      NaN
+375          14      NaN
+376          19      NaN
+377          15      NaN
+378          16      NaN
+379          19      NaN
+380          17      NaN
+381          11      NaN
+382          15      NaN
+383          18      NaN
+384          17      NaN
+385          18      NaN
+386          13      NaN
+387          18      NaN
+388          18      NaN
+389          15      NaN
+390          18      NaN
+391          16      NaN
+392          18      NaN
+393          21      NaN
+394          16      NaN
+395          26      NaN
+396          19      NaN
+397          24      NaN
+398          20      NaN
+399          18      NaN
+400          21      NaN
+401          13      NaN
+402          17      NaN
+403          20      NaN
+404          12      NaN
+405          21      NaN
+406          15      NaN
+407          11      NaN
+408          18      NaN
+409          19      NaN
+410          15      NaN
+411          15      NaN
+412          17      NaN
+413          13      NaN
+414          13      NaN
+415          16      NaN
+416          14      NaN
+417          22      NaN
+418          24      NaN
+419          23      NaN
+420          18      NaN
+421          17      NaN
+422          18      NaN
+423          17      NaN
+424          21      NaN
+425          17      NaN
+426          20      NaN
+427          19      NaN
+428          17      NaN
+429          15      NaN
+430          17      NaN
+431          18      NaN
+432          21      NaN
+433          15      NaN
+434          17      NaN
+435          14      NaN
+436          19      NaN
+437          17      NaN
+438          17      NaN
+439          15      NaN
+440          17      NaN
+441          18      NaN
+442          20      NaN
+443          16      NaN
+444          16      NaN
+445          21      NaN
+446          14      NaN
+447          16      NaN
+448          16      NaN
+449          15      NaN
+450          22      NaN
+451          19      NaN
+452          16      NaN
+453          17      NaN
+454          19      NaN
+455          18      NaN
+456          14      NaN
+457          17      NaN
+458          20      NaN
+459          21      NaN
+460          18      NaN
+461          15      NaN
+462          11      NaN
+463          21      NaN
+464          16      NaN
+465          20      NaN
+466          14      NaN
+467          24      NaN
+468          18      NaN
+469          17      NaN
+470          17      NaN
+471          18      NaN
+472          17      NaN
+473          15      NaN
+474          21      NaN
+475          16      NaN
+476          15      NaN
+477          20      NaN
+478          19      NaN
+479          16      NaN
+480          19      NaN
+481          18      NaN
+482          17      NaN
+483          19      NaN
+484          14      NaN
+485          15      NaN
+486          21      NaN
+487          17      NaN
+488          17      NaN
+489          15      NaN
+490          21      NaN
+491          16      NaN
+492          19      NaN
+493          17      NaN
+494          14      NaN
+495          18      NaN
+496          19      NaN
+497          21      NaN
+498          15      NaN
+499          19      NaN
+500          21      NaN
+501          15      NaN
+502          18      NaN
+503          19      NaN
+504          24      NaN
+505          20      NaN
+506          18      NaN
+507          22      NaN
+508          22      NaN
+509          18      NaN
+510          17      NaN
+511          20      NaN
+512          22      NaN
+513          18      NaN
+514          20      NaN
+515          16      NaN
+516          13      NaN
+517          20      NaN
+518          12      NaN
+519          15      NaN
+520          19      NaN
+521          19      NaN
+522          19      NaN
+523          21      NaN
+524          17      NaN
+525          15      NaN
+526          15      NaN
+527          19      NaN
+528          14      NaN
+529          16      NaN
+530          18      NaN
+531          16      NaN
+532          17      NaN
+533          16      NaN
+534          18      NaN
+535          16      NaN
+536          15      NaN
+537          22      NaN
+538          17      NaN
+539          18      NaN
+540          19      NaN
+541          14      NaN
+542          18      NaN
+543          18      NaN
+544          18      NaN
+545          17      NaN
+546          21      NaN
+547          13      NaN
+548          15      NaN
+549          19      NaN
+550          17      NaN
+551          18      NaN
+552          16      NaN
+553          20      NaN
+554          20      NaN
+555          17      NaN
+556          16      NaN
+557          20      NaN
+558          14      NaN
+559          20      NaN
+560          12      NaN
+561          16      NaN
+562          18      NaN
+563          18      NaN
+564          18      NaN
+565          16      NaN
+566          14      NaN
+567          13      NaN
+568          16      NaN
+569          17      NaN
+570          14      NaN
+571          16      NaN
+572          18      NaN
+573          13      NaN
+574          15      NaN
+575          22      NaN
+576          18      NaN
+577          14      NaN
+578          18      NaN
+579          19      NaN
+580          18      NaN
+581          16      NaN
+582          23      NaN
+583          17      NaN
+584          23      NaN
+585          14      NaN
+586          17      NaN
+587          13      NaN
+588          21      NaN
+589          14      NaN
+590          16      NaN
+591          16      NaN
+592          16      NaN
+593          18      NaN
+594          24      NaN
+595          15      NaN
+596          20      NaN
+597          22      NaN
+598          19      NaN
+599          14      NaN
+600          18      NaN
+601          19      NaN
+602          19      NaN
+603          16      NaN
+604          21      NaN
+605          21      NaN
+606          14      NaN
+607          18      NaN
+608          20      NaN
+609          15      NaN
+610          14      NaN
+611          20      NaN
+612          18      NaN
+613          19      NaN
+614          13      NaN
+615          17      NaN
+616          21      NaN
+617          19      NaN
+618          22      NaN
+619          22      NaN
+620          14      NaN
+621          19      NaN
+622          22      NaN
+623          16      NaN
+624          20      NaN
+625          12      NaN
+626          18      NaN
+627          12      NaN
+628          20      NaN
+629          15      NaN
+630          20      NaN
+631          22      NaN
+632          17      NaN
+633          17      NaN
+634          16      NaN
+635          15      NaN
+636          21      NaN
+637          21      NaN
+638          15      NaN
+639          14      NaN
+640          18      NaN
+641          12      NaN
+642          23      NaN
+643          15      NaN
+644          14      NaN
+645          20      NaN
+646          22      NaN
+647          15      NaN
+648          20      NaN
+649          18      NaN
+650          11      NaN
+651          14      NaN
+652          17      NaN
+653          16      NaN
+654          17      NaN
+655          20      NaN
+656          17      NaN
+657          20      NaN
+658          15      NaN
+659          17      NaN
+660          16      NaN
+661          16      NaN
+662          18      NaN
+663          13      NaN
+664          18      NaN
+665          19      NaN
+666          13      NaN
+667          18      NaN
+668          22      NaN
+669          18      NaN
+670          15      NaN
+671          15      NaN
+672          22      NaN
+673          17      NaN
+674          15      NaN
+675          21      NaN
+676          21      NaN
+677          20      NaN
+678          18      NaN
+679          17      NaN
+680          20      NaN
+681          16      NaN
+682          16      NaN
+683          17      NaN
+684          20      NaN
+685          16      NaN
+686          18      NaN
+687          18      NaN
+688          15      NaN
+689          16      NaN
+690          22      NaN
+691          15      NaN
+692          24      NaN
+693          15      NaN
+694          14      NaN
+695          17      NaN
+696          21      NaN
+697          15      NaN
+698          19      NaN
+699          19      NaN
+700          15      NaN
+701          16      NaN
+702          15      NaN
+703          15      NaN
+704          15      NaN
+705          22      NaN
+706          18      NaN
+707          15      NaN
+708          18      NaN
+709          16      NaN
+710          17      NaN
+711          17      NaN
+712          16      NaN
+713          21      NaN
+714          15      NaN
+715          14      NaN
+716          18     -Inf
+717          19      NaN
+718          11      NaN
+719          17      NaN
+720          12      NaN
+721          16      NaN
+722          16      NaN
+723          22      NaN
+724          16      NaN
+725          13      NaN
+726          18      NaN
+727          18      NaN
+728          21      NaN
+729          18      NaN
+730          21      NaN
+731          16      NaN
+732          16      NaN
+733          12      NaN
+734          15      NaN
+735          19      NaN
+736          16      NaN
+737          19      NaN
+738          15      NaN
+739          13      NaN
+740          18      NaN
+741          16      NaN
+742          27      NaN
+743          23      NaN
+744          17      NaN
+745          23      NaN
+746          15      NaN
+747          16      NaN
+748          24      NaN
+749          18      NaN
+750          20      NaN
+751          22      NaN
+752          18      NaN
+753          14      NaN
+754          23      NaN
+755          18      NaN
+756          19      NaN
+757          17      NaN
+758          19      NaN
+759          23      NaN
+760          13      NaN
+761          17      NaN
+762          20      NaN
+763          18      NaN
+764          19      NaN
+765          17      NaN
+766          15      NaN
+767          18      NaN
+768          17      NaN
+769          18      NaN
+770          16      NaN
+771          16      NaN
+772          21      NaN
+773          17      NaN
+774          17      NaN
+775          14      NaN
+776          13      NaN
+777          14      NaN
+778          18      NaN
+779          21      NaN
+780          19      NaN
+781          16      NaN
+782          12      NaN
+783          14      NaN
+784          13      NaN
+785          19      NaN
+786          17      NaN
+787          17      NaN
+788          17      NaN
+789          17      NaN
+790          17      NaN
+791          21      NaN
+792          20      NaN
+793          16      NaN
+794          19      NaN
+795          16      NaN
+796          20      NaN
+797          18      NaN
+798          12      NaN
+799          17      NaN
+800          18      NaN
+801          21      NaN
+802          18      NaN
+803          20      NaN
+804          18      NaN
+805          12      NaN
+806          19      NaN
+807          20      NaN
+808          16      NaN
+809          17      NaN
+810          15      NaN
+811          20      NaN
+812          17      NaN
+813          20      NaN
+814          15      NaN
+815          18      NaN
+816          17      NaN
+817          18      NaN
+818          19      NaN
+819          14      NaN
+820          14      NaN
+821          15      NaN
+822          15      NaN
+823          19      NaN
+824          16      NaN
+825          20      NaN
+826          17      NaN
+827          18      NaN
+828          17      NaN
+829          18      NaN
+830          18      NaN
+831          16      NaN
+832          19      NaN
+833          17      NaN
+834          19      NaN
+835          19      NaN
+836          19      NaN
+837          13      NaN
+838          20      NaN
+839          16      NaN
+840          18      NaN
+841          18      NaN
+842          12      NaN
+843          16      NaN
+844          13      NaN
+845          18      NaN
+846          15      NaN
+847          17      NaN
+848          19      NaN
+849          16      NaN
+850          15      NaN
+851          22      NaN
+852          20      NaN
+853          15      NaN
+854          20      NaN
+855          16      NaN
+856          22      NaN
+857          14      NaN
+858          18      NaN
+859          17      NaN
+860          16      NaN
+861          15      NaN
+862          19      NaN
+863          12      NaN
+864          19      NaN
+865          19      NaN
+866          14      NaN
+867          18      NaN
+868          18      NaN
+869          16      NaN
+870          13      NaN
+871          20      NaN
+872          17      NaN
+873          17      NaN
+874          17      NaN
+875          12      NaN
+876          20      NaN
+877          20      NaN
+878          16      NaN
+879          19      NaN
+880          14      NaN
+881          19      NaN
+882          17      NaN
+883          17      NaN
+884          19      NaN
+885          16      NaN
+886          15      NaN
+887          19      NaN
+888          15      NaN
+889          24      NaN
+890          15      NaN
+891          18      NaN
+892          21      NaN
+893          13      NaN
+894          18      NaN
+895          15      NaN
+896          17      NaN
+897          17      NaN
+898          16      NaN
+899          18      NaN
+900          19      NaN
+901           9      NaN
+902          13       93
+903          11       93
+904           8     -Inf
+905          10     -Inf
+906           9       93
+907          15      NaN
+908           9       93
+909          13      NaN
+910          11       93
+911           9     -Inf
+912           5      100
+913          10       93
+914           8     -Inf
+915          12       93
+916          13      NaN
+917           7      100
+918          13       93
+919          17      NaN
+920           6       93
+921           9      104
+922          10     -Inf
+923          10     -Inf
+924           9      104
+925          11      NaN
+926          18      NaN
+927           7      100
+928          13      NaN
+929          10     -Inf
+930           7       93
+931          10       93
+932          10      100
+933           8       93
+934          11       93
+935          14     -Inf
+936          17      NaN
+937           9      100
+938          10       93
+939           7       93
+940           8     -Inf
+941           9      NaN
+942          11       93
+943          13      NaN
+944          12      NaN
+945          10      NaN
+946          10       93
+947           9       93
+948          15      104
+949          10       93
+950          11     -Inf
+951          16      NaN
+952           7       93
+953          16      NaN
+954          16      NaN
+955          12      NaN
+956          10       93
+957           9      100
+958          21      NaN
+959          18     -Inf
+960          10      100
+961          10       93
+962          14     -Inf
+963          23      NaN
+964          18      NaN
+965           7       93
+966          14     -Inf
+967           8     -Inf
+968          14      NaN
+969           9      104
+970          20      NaN
+971          11     -Inf
+972          10      100
+973          13       93
+974          15      NaN
+975          12       93
+976           9     -Inf
+977          14      NaN
+978           9       93
+979          19      NaN
+980          18      NaN
+981           9       93
+982          14      NaN
+983          13       93
+984          16     -Inf
+985           8       93
+986           7      100
+987           6     -Inf
+988           8       93
+989          10       93
+990          12      NaN
+991          17     -Inf
+992           9       93
+993          14       93
+994           8       93
+995           9      100
+996          15     -Inf
+997          11     -Inf
+998          11       93
+999          19      NaN
+1000         16      NaN

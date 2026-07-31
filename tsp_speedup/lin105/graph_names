@@ -1,0 +1,4 @@
+fracscore = E/E_min
+logfracscore = log(E/E_min)
+logfracscoreA = log(E/E_min)-1? Whatever
+logdeltascore = log(E-E_min/E_min + z) 
